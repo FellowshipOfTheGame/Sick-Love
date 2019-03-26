@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/SofiaDate1.rpy", line 18: expected statement.
+    bg room = im.Scale("bgroom.png", 1366, 768)
+            ^
+
+File "game/SofiaDate1.rpy", line 19: expected statement.
+    sofia standing = im.Scale("sofiaidle.png", 200, 300)
+                   ^
+
+Ren'Py Version: Ren'Py 7.2.0.424
+Tue Mar 26 12:08:37 2019
