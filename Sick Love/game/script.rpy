@@ -10,6 +10,6 @@ define e = Character("Eileen")
 
 label start:
 
-    jump sofiafirstdate
+    jump intro
 
     return

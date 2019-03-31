@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/SofiaDate1.rpy", line 18: expected statement.
-    bg room = im.Scale("bgroom.png", 1366, 768)
-            ^
+File "game/Intro.rpy", line 77: choice menuitem expects a non-empty block.
+    "Ir para a biblioteca":
+                           ^
 
-File "game/SofiaDate1.rpy", line 19: expected statement.
-    sofia standing = im.Scale("sofiaidle.png", 200, 300)
-                   ^
-
-Ren'Py Version: Ren'Py 7.2.0.424
-Tue Mar 26 12:08:37 2019
+Ren'Py Version: Ren'Py 7.1.3.1092
+Sun Mar 31 20:54:44 2019
