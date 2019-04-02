@@ -82,9 +82,41 @@ label sofiafirstdate:
     
     s "É só uma brincadeira. O nome do monstro é impronunciável pelos humanos, então a gente nunca vai acertar o nome dele mesmo. Inclusive tem vários jeitos de falar e escreve o nome \"correto\"."
     
-    s "Katulu, Kutulu, Tulu... Então no fim você não tá tão errado assim."
+    s "Katulu, Kutulu, Tulu... Então no fim você não tá tão errado assim. O que importa é que ele é um dos Antigos que causa terrores inimagináveis na mente de meros mortais só por exercer sua presença."
     
-    p "Nossa. Você realmente entende do assunto"
+    s "E no dia que ele despertar de sua casa em R'lyeh, todos encontraremos nosso fim."
+    
+    p "Nossa. Você realmente entende do assunto! Acho que encontrei a pessoa certa pra perguntar se eu deveria começar a ler."
+    
+    s "*Levemente envergonhada* Ah, desculpa. Eu me empolguei e falei demais, né? Eu fiquei te prendendo aqui falando besteira. Desculpa."
+    
+    p "{i}Tá{/i} tudo bem. Eu {i}tava{/i} querendo alguém que me recomendasse um bom livro, e eu acho muito legal ver alguém falando empolgado do que gosta."
+    
+    p "Eu fiquei bem animado de começar a ler os livros do {i}Lovecraft{/i} depois de ver toda sua empolgação."
+    
+    p "Aliás, sou [povname], sou novo aqui e vim conhecer a biblioteca hoje. Ainda bem que encontrei alguém que parece gostar de livros também."
+    
+    s "Opa, não me apresentei também. Sou Sofia. Também sou nova aqui, mas provavelmente a biblioteca já virou minha segunda casa."
+    
+    s "Eu gosto muito de ler. De tudo um pouco. Mas eu gosto bastante de terror, horror, suspense e mistério. Penso que são gêneros que te prendem demais na história e te envolvem emocionalmente em maior grau que os outros."
+    
+    p "Eu não li muitas coisas desses gêneros, mas lembro de ler algumas coisas da {i}Christie{/i} e do {i}King{/i} e achei bem legais. Conheço mais histórias de ficção científica e fantasia."
+    
+    p "Mas acho que vou dar uma chance pros horrores de {i}Lovecraft{/i} dessa vez... Qual livro você recomenda eu ler primeiro? Tem uma cronologia?"
+    
+    s "Ótima escolha! *hehe* a maioria das histórias são bem desconexas, mas fazem parte do mesmo mundo. Como você {i}tava{/i} curioso com o Cleber, acho que você pode começar com ele mesmo. *risos* É um ótimo conto."
+    
+    p "*risos* Ok, vou levar \"O Chamado do Cleber\", então. Obrigado!"
+    
+    s "De nada!"
+    
+    p "Ah... eu sei que a gente mal se conhece. Mas você usa algum aplicativo de mensagem pra gente continuar se falando? Eu não tenho ninguém aqui ainda pra conversar sobre livros, e nem me recomendar contos de terror..."
+    
+    s "Claro! Vou te passar meu Zapzap... Pronto! Me fala o que achou quando terminar o livro."
+    
+    p "Pode deixar. Obrigado pela ajuda! Eu vou ter que ir agora, mas a gente vai se falando. Foi um prazer!"
+    
+    s "Até! O prazer foi meu. Boa leitura!"
 
     # This ends the game.
 
