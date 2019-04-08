@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define s = Character("Sofia", color = "#00b3f4", what_color = "#49daff")
+define s = Character("Sofia", color = "#00b3f4", what_color = "#49daff",what_prefix='"', what_suffix='"')
 
 # The game starts here.
 
@@ -12,7 +12,7 @@ label sofiafirstdate:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    
+
     image bg room = im.Scale("bgroom.png", 1366, 768)
     image sofia standing = im.Scale("sofiaidle.png", 600, 800)
 
@@ -25,7 +25,7 @@ label sofiafirstdate:
     # These display lines of dialogue.
 
     "Bem, já que não trouxe muita coisa comigo pro dormitório, acho que a melhor coisa que posso fazer pra passar o tempo é pegar um bom livro."
-    
+
     "Será que aqui na biblioteca tem só livros técnicos? Seria bom se desse para pegar alguns livros mais divertidos às vezes..."
     
     "Falaram que era só atravessar a praça, subir umas escadas, seguir reto e procurar um prédio cheio de janelas à direita, para chegar na biblioteca."

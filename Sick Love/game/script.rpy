@@ -18,6 +18,6 @@ label start:
         if not povname:
              povname = "João José"
 
-    jump sofiafirstdate
+    jump intro
 
     return
