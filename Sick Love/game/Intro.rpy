@@ -1,9 +1,7 @@
 
-define t = Character("Professor", color = "#36F3AE", what_color = "#2BD798",what_prefix='"', what_suffix='"')
-
 label intro:
 
-scene bg room
+scene bg classroom
 
 "Ufa, acho que consegui chegar a tempo, a lousa ainda está vazia."
 
@@ -48,7 +46,7 @@ Nunca vou esquecer a cara que ele fez HAHAHA.
 
 Desculpem as histórias e devaneios, eu sempre fui o piadista do grupo.
 
-Mas bem, já que hoje foi apenas uma aula introdutória, vamos parar aqui por hoje.
+Mas bem, já que hoje foi apenas uma aula introdutória, vamos parar aqui.
 
 Vejo que alguns de você parecem estar um pouco deslocados, mas não se esqueçam:
 
@@ -56,13 +54,13 @@ Alguns amigos feitos na faculdade ficam pra vida toda, então não fiquem sozinh
 
 Ouvi dizer que nosso time de handball está com tudo, então quem tiver interessado dê uma passadinha no ginásio.
 
-Claro que caso você goste de outro esporte você também deve ir pro ginásio, lá os outros alunos poderão melhor te guiar.
+Claro que caso você goste de outro esporte você também deve ir pro ginásio, lá os outros alunos poderão te guiar melhor.
 
 Por último, só queria lembrar que a biblioteca da nossa universidade é invejável.
 
 Se forem lá aposto que não se arrependerão.
 """
-scene bg room
+scene bg classroom
 with Fade(0.7,0.2,0.7)
 
 """
