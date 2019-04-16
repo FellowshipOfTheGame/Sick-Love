@@ -27,6 +27,12 @@ transform noghost:
     xalign 0.5
     yalign -0.9
 
+define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
+
+define b = Character("Bruno", color = "#db8181", what_color = "#ce7575",what_prefix='"', what_suffix='"')
+
+define d = Character("Diego", color = "#ceb282", what_color = "#bfa57a",what_prefix='"', what_suffix='"')
+
 
 # The game starts here.
 

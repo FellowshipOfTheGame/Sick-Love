@@ -25,7 +25,7 @@ t "Eu me lembro que..."
 
 "Não acredito que caí no papo do meu pai de chegar no dia da primeira aula."
 
-"Por sorte dentro do campus dá pra se guiar só pelas placas, se não fossem por elas até agora estaria rodando sem sair do lugar."
+"Por sorte encontrei um grupo de veteranos que me indicaram o caminho, se não fossem por eles até agora estaria rodando sem sair do lugar."
 
 "Consegui ainda passar no dormitório pra deixar minhas malas."
 
@@ -78,7 +78,9 @@ menu:
 
     "Ficar e conversar com o grupo na sala":
 
-        "testeb"
+        "Bem, acho que vou ver sobre o que eles estão falando ali, acho que ouvi alguem dizer algo sobre o novo filme que está pra sair"
+
+        jump marianafirstdate
 
     "Ir ao ginásio":
 
