@@ -44,8 +44,6 @@ label start:
         if not povname:
              povname = "Protagonista-kun"
 
-    jump sofiaseconddate
-
     jump intro
 
     return
