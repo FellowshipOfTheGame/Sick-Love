@@ -2,8 +2,7 @@ label marianafirstdate:
 
 scene bg room
 
-image mariana standing = im.Scale("marianaidle.png", 600, 800)
-image mariana evasive = im.Scale("marianaevasive.png", 600, 800)
+
 
 b "...Mas pelo ultimo trailer esse novo filme deve mudar tudo cara, deve morrer metade dos personagens"
 
