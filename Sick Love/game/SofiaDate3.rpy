@@ -36,9 +36,13 @@ label sofiathirddate:
     
     #TODO transição pra tela de celular?
     
-    " - {i} Algumas mensagens depois {/i}- "
+    " -{i}Algumas mensagens depois{/i}-"
+    
+    show sofia standing at noghost
     
     s "Eu vou estar livre, sim! Finalmente as minhas provas também acabaram (por enquanto). Pelo {i}trailer{/i} parece que não vai ser tão ruim assim. Digo, normalmente adaptações de livros costumam ser bem tristes de ver."
+    
+    show sofia sad at noghost
     
     s "Especialmente depois que a gente já leu o livro e vai no {i}hype{/i} pro cinema esperando que eles vão ser fiéis o suficiente para pelos menos contar a mesma história do livro..."
     
@@ -46,13 +50,19 @@ label sofiathirddate:
     
     p "Mas, então, posso confirmar o filme?"
     
+    show sofia happy at noghost
+    
     s "Claro! Só não vai pular no meu colo se ficar com muito medo. *risos*"
     
     p "{i}Oloco{/i}!E esse {i}bullying{/i} gratuito aí? Nem tive que discar {i}0800{/i} pra receber. Vou me lembrar disso se um dia você vier aqui jogar os jogos do {i}Four Nights at Frank's{/i}. Não terá clemência quando você pular com os sustos. *risos*"
     
-    s "Tudo bem, eu deixo você segurar minha mão se ficar com medo, não vou ser tão cruel... Mas, ou, povname, vou ter que dar uma saída daqui. Vou ficar um tempo sem responder. Em todo caso, até o filme!"
+    show sofia standing at noghost
     
-    " - {i} Algumas despedidas depois {/i}- "
+    s "Tudo bem, eu deixo você segurar minha mão se ficar com medo, não vou ser tão cruel... Mas, ou, [povname], vou ter que dar uma saída daqui. Vou ficar um tempo sem responder. Em todo caso, até o filme!"
+    
+    " -{i}Algumas despedidas depois{/i}-"
+    
+    hide sofia
     
     "{i}YES{/i}! Ela {i}topou{/i} ir... Ok, eu acho que posso dizer que estou gostando dela mesmo. Não é normal ficar feliz assim quando uma garota que você não sente nada por aceita sair com você."
     
@@ -64,15 +74,20 @@ label sofiathirddate:
     
     p "AAAAAAAH eu não vou conseguir dormir direito pensando nisso. DE NOVO!"
     
-    p "Ok, respira fundo, povname. Vai fazer alguma coisa pra distrair a cabeça. Você consegue..."
+    p "Ok, respira fundo, [povname]. Vai fazer alguma coisa pra distrair a cabeça. Você consegue..."
     
     "Já sei, vou ler um livro."
     
-    " - {i} Depois de tentar ler em vão, ver séries das quais ele nem lembra mais o que assistiu e jogar um pouco, o sono chega, assim como o grande momento no final de semana. {/i}- "
+    scene black with Fade(0.7,0.2,0.7)
     
-    #TODO carregar cena do cinema
+    " -{i}Depois de tentar ler em vão, ver séries das quais ele nem lembra mais o que assistiu e jogar um pouco, o sono chega, assim como o grande momento no final de semana.{/i}-"
+    
+    scene bg movies
+    with Fade(0.7,0.2,0.7)
     
     p "Caramba, eu fiquei tão ansioso que acabei chegando um pouco antes. Pelo menos já comprei os ingressos..."
+    
+    show sofia standing at noghost
     
     s "Oi, povname, cheguei!"
     
@@ -82,29 +97,47 @@ label sofiathirddate:
     
     p "Não, tá tranquilo. Eu aproveitei e já comprei os ingressos."
     
+    show sofia happy at noghost
+    
     s "Poxa, valeu! Então eu compro a pipoca pra gente dividir."
     
     p "Beleza. {i}Bora{/i} lá!"
     
-    " - {i} No filme... {/i}- "
+    show sofia standing at noghost
+    
+    scene black with Fade(0.7,0.2,0.7)
+    
+    " -{i}No filme...{/i}- "
+    
+    scene bg movies
+    with Fade(0.7,0.2,0.7)
     
     "Huuum... o filme até que ficou legal. Eles não fizeram só mais um clichê de terror {i}jumpscare{/i}. Tá tendo uma boa parte de história até agora."
 
-    "Mas... o mais importante... COMO QUE EU TO DE MÃOS DADAS COM A SOFIA?"
+    "Mas... o mais importante..."
     
-    "Eu estava de boa vendo o filme. Eu tava pensando: como seria bom assistir um filme de mãos dadas com a Sofia..."
+    "COMO QUE EU TO DE MÃOS DADAS COM A SOFIA?" with Shake((0, 0, 0, 0), 0.7, dist=20)
+    
+    "Eu estava de boa vendo o filme. Eu {i}tava{/i} pensando: como seria bom assistir um filme de mãos dadas com a Sofia..."
     
     "E aí ela acabou colocando a mão em cima da minha sem querer, e por impulso eu tentei segurar a mão dela e... bem... agora estamos de mãos dadas."
     
-    "Meu coração está batendo mais rápido do que eu queria admitir. Caramba, como eu sou trouxa. Estamos só de mãos dadas. Isso não é nada demais..."
+    "Meu coração está batendo mais rápido do que eu queria admitir. Caramba, como eu sou trouxa. Estamos só de mãos dadas. Isso não é nada demais..." with Shake((0, 0, 0, 0), 0.3, dist=5)
     
-    "Mas pode ser? Certo? Digo... Se ela está segurando minha mãe quer dizer que ela também tem interesse em mim. Certo? Ou será que ela só não quis causar {i}treta{/i} e não tirou a mão?"
+    "Mas pode ser? Certo? Digo... Se ela está segurando minha mão quer dizer que ela também tem interesse em mim. Certo? Ou será que ela só não quis causar {i}treta{/i} e não tirou a mão?"
     
     "Caramba, quantas dúvidas. Eu não sei o que fazer... Será que eu tento tirar a mão? Será que eu tento falar algo? Mas aí eu vou atrapalhar o filme..." 
     
-    "Que filme? Eu nem to conseguindo me concentrar mais."
+    "QUE FILME?" with Shake((0, 0, 0, 0), 0.3, dist=10)
     
-    " - {i} Muitos minutos de pensamentos confusos e infinitos depois... {/i}- "
+    "Eu nem to conseguindo me concentrar mais."
+    
+    scene black with Fade(0.7,0.2,0.7)
+    
+    " -{i}Muitos minutos de pensamentos confusos e infinitos depois...{/i}- "
+    
+    scene bg movies
+    with Fade(0.7,0.2,0.7)
     
     "Ok, o filme acabou e eu não consegui fazer mais nada. Caramba, eu sou trouxa demais!"
     
@@ -124,9 +157,9 @@ label sofiathirddate:
     
     p "Então. Ahn... Tentando clarificar as coisas... Sofia, você quer namorar comigo? Ou ficar antes e namorar depois. Não sei direito o que os jovens fazem hoje em dia..."
     
-    s "Sim! Não importa qual dos dois."
-    
     show sofia happy at noghost
+    
+    s "Sim! Não importa qual dos dois."
     
     "E então, nos beijamos. Foi um ótimo beijo. Com direito a borboletas no estômago e dias de felicidade incrível."
     

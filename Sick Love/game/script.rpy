@@ -12,6 +12,10 @@ image bg room = im.Scale("bgroom.png", 1366, 768)
 image bg library = im.Scale("bglibrary.png", 1366, 768)
 image bg gym = im.Scale("bggym.png", 1366, 768)
 image bg classroom = im.Scale("bgclassroom.png", 1366, 768)
+image bg museum = im.Scale("bgmuseum.png", 1366, 768)
+image bg arcade = im.Scale("bgarcade.png", 1366, 768)
+image bg movies = im.Scale("bgmovies.png", 1366, 768)
+image black = "#000"
 
 #Declare all characters images here
 image sofia standing = im.Scale("sofia.png", 1365, 840)

@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-image black = "#000"
-
 # The game starts here.
 
 label sofiaseconddate:
@@ -39,7 +37,7 @@ label sofiaseconddate:
     "Com certeza não. Quem ficaria com medo de um livro. Que absurdo..."
     
     # TODO: Tela preta - barulho de energia apagando
-    scene black with Fade(0.5)
+    scene black with Fade(0.7,0.2,0.7)
     
     p "Mas que diabos! Acabou a luz? BEM AGORA? SÉRIO!?"
     
@@ -55,23 +53,25 @@ label sofiaseconddate:
 
     p "Opa! Ela respondeu."
     
-    "{i}- Algumas mensagens depois -{/i}"
+    "-{i}Algumas mensagens depois{/i}-"
     
     p "Esse final de semana você vai estar livre? Eu estava pensando em ir pra algum lugar e a gente pode trocar uma ideia sobre livros, a vida, o universo e tudo mais."
+
+    show sofia standing at noghost
 
     s "*risos* Gostei da referência. Eu estava querendo ir ver uma exposição temática de terror no museu. Disseram que está muito boa. Quer ir?"
 
     p "Claro! Não costumo ir em museus, mas depois das suas ótimas recomendações de livro, vou arriscar. Vai ver descubro mais uma coisa que eu gosto e nunca iria imaginar."
     
     p "E no pior dos casos, vai ter você pra conversar, então está ótimo!"
-    
-    show sofia standing at noghost
-    
+        
     s "Perfeito! Só não vale me culpar depois se você se apaixonar por esculturas grotescas."
     
     p "*risos* Pode deixar."
 
-    "{i}- Algumas despedidas depois e a conversa chega ao fim -{/i}"
+    "-{i}Algumas despedidas depois e a conversa chega ao fim.{/i}-"
+    
+    hide sofia
 
     "Ok, eu acho que estou mais calmo agora. Vou conseguir dormir tranquilo..."
     
@@ -93,15 +93,18 @@ label sofiaseconddate:
     
     "Tsc. "
     
-    "{i}- No fim de semana -{/i}"
+    scene black with Fade(0.7,0.2,0.7)
     
-    #TODO mudar pro cenário do museu (ou do ponto de encontro)
+    "-{i}No fim de semana{/i}-"
+    
+    scene bg museum
+    with Fade(0.7,0.2,0.7)
     
     "Ufa, finalmente cheguei no museu. Será que a Sofia já chegou?"
     
     show sofia happy at noghost
     
-    s "Oi! povname, {i}tô{/i} aqui!"
+    s "Oi! [povname], {i}tô{/i} aqui!"
     
     p "Opa! Tudo bom? Faz tempo que você chegou? Desculpa se atrasei."
     
@@ -129,13 +132,18 @@ label sofiaseconddate:
     
     show sofia happy at noghost
     
-    s "Falaram que tem bastante coisas dele na parte de filmes. {i}Bora{/i} lá!"
+    s "Falaram que tem bastantes coisas dele na parte de filmes. {i}Bora{/i} lá!"
+    
+    scene black with Fade(0.7,0.2,0.7)
     
     hide sofia happy
     
-    " - {i}Na seção de filmes{/i} - "
+    "-{i}Na seção de filmes{/i}-"
     
-    p "Caramba! Tem um monte de desenhos do Tom aqui. Os traços dele são tão únicos."
+    scene bg museum
+    with Fade(0.7,0.2,0.7)
+    
+    p "Caramba! Tem um monte de desenhos do Tom aqui. Os traços dele são tão únicos!"
     
     p "Olha lá, tem até alguns modelos das expressões do Jacó Esqueletom no filme!"
     
@@ -153,8 +161,14 @@ label sofiaseconddate:
 
     s "Realmente. Você já viu o..."
     
-    #Tela preta pra transição?
-    " - {i} Depois de alguns minutos de discussão de filmes, nós fomos para a seção de jogos a pedido meu.{/i}- "
+    scene black with Fade(0.7,0.2,0.7)
+    
+    hide sofia
+    
+    " -{i}Depois de alguns minutos de discussão de filmes, nós fomos para a seção de jogos, a pedido meu.{/i}-"
+    
+    scene bg museum
+    with Fade(0.7,0.2,0.7)
     
     p "Uau, tem até jogos em Realidade Virtual pra jogar! Disseram que o \"Resident Bad\" tá dando um certo medo... Nossa, tem até o \"Four Nights At Franks'\" que nem saiu. Esse deve assustar pra caramba!"
 
@@ -164,9 +178,15 @@ label sofiaseconddate:
 
     p "Sim. Eu até que jogo bastante coisa. Você não gosta?"
     
-    s "Huuum, nunca joguei muito, mas é mais por preferir ler do que não gostar. Não estou te julgando, fica tranquilo."
+    s "Huuum, nunca joguei muito, mas é mais por preferir ler do que não gostar."
+    
+    show sofia happy at noghost
+    
+    s "Não estou te julgando, fica tranquilo."
     
     p "Ufa! Menos mal. Mas acho que você devia tentar jogar alguns jogos mais focados em história. Talvez você goste. Tem alguns muito envolventes."
+    
+    show sofia standing at noghost
     
     p "Tem alguns de terror inclusive que são baseados nos livros do \"Lovecraft\". Mas nesse caso eu gostei mais dos livros."
     
@@ -174,8 +194,14 @@ label sofiaseconddate:
     
     s "Tudo bem. Vou dar uma segunda chance."
     
-    #Tela preta pra transição?
-    " - {i} Depois de alguns longos minutos e alguns sustos jogando, Sofia mudou um pouco de opinião sobre jogos. E então, seguimos para a seção de livros.{/i}- "
+    scene black with Fade(0.7,0.2,0.7)
+    
+    hide sofia
+    
+    " -{i}Depois de alguns longos minutos e alguns sustos jogando, Sofia mudou um pouco de opinião sobre jogos. E então, seguimos para a seção de livros.{/i}-"
+
+    scene bg museum
+    with Fade(0.7,0.2,0.7)
 
     show sofia upset at noghost
 
@@ -189,11 +215,11 @@ label sofiaseconddate:
     
     p "Inclusive, acho que você devia dar uma olhada depois na história do \"Four Nights At Franks'\". O jogo em si quase não conta nada, diretamente. Mas a franquia tem uma história gigante."
     
-    p "E está tudo escondido dentro do jogo e em brincadeiras que o autor faz no site. Deixando um monte de pistas criptografadas em lugares inusitados. É como viver uma história de detetiva na vida real. Mas não vou dar spoilers..."
+    p "E está tudo escondido dentro do jogo e em brincadeiras que o autor faz no site. Deixando um monte de pistas criptografadas em lugares inusitados. É como viver uma história de detetive na vida real. Mas não vou dar spoilers..."
 
     s "Poxa. Interessante. Vou procurar depois. Pareceu algo bem legal. Eu já vi alguns livros que você tem que solucionar quebra-cabeças na página atual pra desbloquear a próxima. Achei bem criativo e inusitado."
 
-    p "Não sabia desse livro não. Vou dar ver se encontro mais tarde."
+    p "Não sabia desse livro não. Vou ver se encontro mais tarde."
     
     s "Hey, esses estandes de livros parecem bem interessantes, {i}hein{/i}? Já terminou todos os de {i}Lovecraft{/i}?"
     
@@ -229,7 +255,14 @@ label sofiaseconddate:
     
     p "Claro! Vamos lá."
     
-    " - {i} Depois de uma busca incessante por livros e a compra de livros que possivelmente ficarão na estante antes de serem lidos por mais tempo do que você gostaria de admitir, termina o evento. {/i} "
+    scene black with Fade(0.7,0.2,0.7)
+    
+    hide sofia
+    
+    " -{i}Depois de uma busca incessante por livros e a compra de livros que possivelmente ficarão na estante antes de serem lidos por mais tempo do que você gostaria de admitir, termina o evento.{/i}-"
+    
+    scene bg museum
+    with Fade(0.7,0.2,0.7)
     
     p "Bem, hora de ir. Obrigado por ter saído comigo. Me diverti bastante hoje!"
     

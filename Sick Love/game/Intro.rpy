@@ -82,6 +82,7 @@ menu:
 
         jump marianafirstdate
 
-    "Ir ao ginásio":
+    #TODO Rafaela
+    #"Ir ao ginásio":
 
-        "teste"
+        #"teste"

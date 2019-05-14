@@ -18,3 +18,9 @@ Sick Love/project\.json
 SickLove-1\.0-dists/SickLove-1\.0-linux\.tar\.bz2
 
 SickLove-1\.0-dists/SickLove-1\.0-pc\.zip
+
+*.txt
+
+*.rpyb
+
+*.json
