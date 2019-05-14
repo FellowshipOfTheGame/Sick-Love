@@ -3,6 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+image black = "#000"
 
 # The game starts here.
 
@@ -23,13 +24,13 @@ label sofiaseconddate:
 
     "Terminei! Esse também foi intenso! Caramba, nunca pensei que fosse possível sentir medo lendo um livro."
     
-    "Desde minha primeira visita na biblioteca eu virei fã de contos de terror, e agora eu terminei o último conto de Lovecraft que faltava, \"A Sombra Vinda do Tempo\"."
+    "Desde a minha primeira visita na biblioteca eu virei fã de contos de terror, e agora eu terminei o último conto de Lovecraft que faltava, \"A Sombra Vinda do Tempo\"."
     
-    "Foi um dos melhores dele. Acho que não senti tantos calafrios enquanto lia em nenhum outro."
+    "Foi um dos melhores dele. Acho que não senti tantos calafrios enquanto lia nenhum outro."
     
-    "Eu preciso agradecer a Sofia pelas recomendações. Nunca achei que eu ia gostar tanto de livros de Horror."
+    "Eu preciso agradecer à Sofia pelas recomendações. Nunca achei que eu ia gostar tanto de livros de horror."
     
-    "Já tá meio tarde. Será que eu mando mensagem agora? Será que ela deixa as coisas no silencioso antes de dormir?"
+    "Já {i}tá{/i} meio tarde. Será que eu mando mensagem agora? Será que ela deixa as coisas no silencioso antes de dormir?"
     
     "Eu sempre coloco porque o {i}spam{/i} é real nos grupos, mas e se eu acordar ela? Huuum, melhor esperar amanhã. Não quero que ela me odeie pro resto da vida."
     
@@ -38,12 +39,13 @@ label sofiaseconddate:
     "Com certeza não. Quem ficaria com medo de um livro. Que absurdo..."
     
     # TODO: Tela preta - barulho de energia apagando
+    scene black with Fade(0.5)
     
     p "Mas que diabos! Acabou a luz? BEM AGORA? SÉRIO!?"
     
     p "Só me faltava essa. Tem curso de engenharia elétrica na universidade e ninguém tem a capacidade de fazer manutenção na rede elétrica e não sobrecarregar o transformador."
     
-    p "Não vou nem começar a falar do {i}wifi{/i}..."
+    p "Não vou nem começar a falar da qualidade do {i}wifi{/i}..."
     
     # TODO: Som de vento creepy
     
@@ -62,6 +64,8 @@ label sofiaseconddate:
     p "Claro! Não costumo ir em museus, mas depois das suas ótimas recomendações de livro, vou arriscar. Vai ver descubro mais uma coisa que eu gosto e nunca iria imaginar."
     
     p "E no pior dos casos, vai ter você pra conversar, então está ótimo!"
+    
+    show sofia standing at noghost
     
     s "Perfeito! Só não vale me culpar depois se você se apaixonar por esculturas grotescas."
     
@@ -82,6 +86,12 @@ label sofiaseconddate:
     "Aliás... Eu gosto dela? Digo, ela é bonita e inteligente. E gosta de ler também..."
     
     "Ah, pronto. Agora sim que eu não vou dormir. Por que eu fui pensar nisso agora?"
+    
+    #TODO Barulho de luz voltando
+    scene bg room
+    with Fade(0.7,0.2,0.7)
+    
+    "Tsc. "
     
     "{i}- No fim de semana -{/i}"
     
@@ -244,5 +254,7 @@ label sofiaseconddate:
     "Droga. Eu nem comecei. Ok, essa noite vai ser longa..."
     
     # This ends the game.
+
+    jump sofiathirddate
 
     return

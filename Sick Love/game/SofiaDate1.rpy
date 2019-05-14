@@ -25,7 +25,7 @@ label sofiafirstdate:
 
     "Será que aqui na biblioteca tem só livros técnicos? Seria bom se desse para pegar alguns livros mais divertidos às vezes..."
     
-    "Falaram que era só atravessar a praça, subir umas escadas, seguir reto e procurar um prédio cheio de janelas à direita, para chegar na biblioteca."
+    "Falaram que era só atravessar a praça, subir umas escadas, seguir reto e procurar um prédio à direita cheio de janelas para chegar na biblioteca."
     
     "Huuum... acho que é aquele prédio ali. Uau! Que prédio grande! Deve ser umas 5 vezes maior que a biblioteca da minha escola."
     
@@ -33,7 +33,7 @@ label sofiafirstdate:
     
     "Quando me falaram que a universidade era um lugar que amadurece as pessoas eu não imaginei que parte do amadurecimento era aprender a adivinhar onde ficam coisas má sinalizadas..."
     
-    "É aqui mesmo. Ufa! Beleza, agora é sair procurando o que tem em cada seção."
+    "É aqui mesmo. Ufa! Beleza, agora é sair procurando o que tem em cada seção..."
     
     "Caramba! Quanto livro de cálculo. Deve ter livro aqui de uns 100 anos... Tenho dó de quem tem rinite."
     
@@ -45,7 +45,7 @@ label sofiafirstdate:
     
     "\"Senhor dos Anéis\" eu já tentei ler. Mas aquelas árvores genealógicas infinitas e dezenas de páginas descrevendo toda a família de cada personagem novo me desanimaram."
     
-    "Os filmes são mto bons, pelo menos..."
+    "Os filmes são muito bons, pelo menos..."
     
     "\"Eu, Robô\" é bem legal. Eu gosto bastante das discussões filosóficas sobre tecnologia do Asimov."
     
@@ -61,13 +61,13 @@ label sofiafirstdate:
     
     p "Claudio? Cleber?"
     
-    show sofia happy
+    show sofia happy at noghost
     
-    s "*risos* Cthulhu?"
+    s "*risos* {i}Cthulhu{/i}?"
 
     p "Isso! {i}Pera{/i}, oi?"
 
-    show sofia standing
+    show sofia standing at noghost
 
     s "Oi. Desculpa se te assustei. É que ouvi você murmurando e respondi por impulso."
     
@@ -77,51 +77,51 @@ label sofiafirstdate:
     
     s "Fica tranquilo. Eu também falo sozinha às vezes. E não é como se você tivesse falado errado o nome dele."
     
-    p "Como assim? Não é Cthulu, que nem você falou agora? Como que eu acertei falando Cleber?"
+    p "Como assim? Não é {i}Cthulu{/i}, que nem você falou agora? Como que eu acertei falando Cleber?"
     
-    show sofia happy
+    show sofia happy at noghost
 
-    s "É só uma brincadeira. O nome do monstro é impronunciável pelos humanos, então a gente nunca vai acertar o nome dele mesmo. Inclusive tem vários jeitos de falar e escreve o nome \"correto\"."
+    s "É só uma brincadeira. O nome do monstro é impronunciável pelos humanos, então a gente nunca vai acertar o nome dele. Inclusive tem vários jeitos de falar e escrever o nome \"correto\"."
     
-    show sofia standing
+    show sofia standing at noghost
     
-    s "Katulu, Kutulu, Tulu... Então no fim você não tá tão errado assim. O que importa é que ele é um dos Antigos que causa terrores inimagináveis na mente de meros mortais só por exercer sua presença."
+    s "Katulu, Kutulu, Tulu... Então no fim você não {i}tá{/i} tão errado assim. O que importa é que ele é um dos Antigos que causa terrores inimagináveis na mente de meros mortais só por exercer sua presença."
     
-    s "E no dia que ele despertar de sua casa em R'lyeh, todos encontraremos nosso fim."
+    s "E no dia que ele despertar de sua casa em {i}R'lyeh{/i}, todos encontraremos nosso fim."
     
     p "Nossa. Você realmente entende do assunto! Acho que encontrei a pessoa certa pra perguntar se eu deveria começar a ler."
     
-    show sofia evasive
+    show sofia shy at noghost
     
-    s "*Levemente envergonhada* Ah, desculpa. Eu me empolguei e falei demais, né? Eu fiquei te prendendo aqui falando besteira. Desculpa."
+    s "Ah, desculpa. Eu me empolguei e falei demais, né? Eu fiquei te prendendo aqui falando besteira. Desculpa."
     
     p "{i}Tá{/i} tudo bem. Eu {i}tava{/i} querendo alguém que me recomendasse um bom livro, e eu acho muito legal ver alguém falando empolgado do que gosta."
     
-    show sofia standing
+    show sofia standing at noghost
     
     p "Eu fiquei bem animado de começar a ler os livros do {i}Lovecraft{/i} depois de ver toda sua empolgação."
     
     p "Aliás, sou [povname], sou novo aqui e vim conhecer a biblioteca hoje. Ainda bem que encontrei alguém que parece gostar de livros também."
     
-    show sofia happy
+    show sofia happy at noghost
     
     s "Opa, não me apresentei também. Sou Sofia. Também sou nova aqui, mas provavelmente a biblioteca já virou minha segunda casa."
     
     s "Eu gosto muito de ler. De tudo um pouco. Mas eu gosto bastante de terror, horror, suspense e mistério. Penso que são gêneros que te prendem demais na história e te envolvem emocionalmente em maior grau que os outros."
     
-    show sofia standing
+    show sofia standing at noghost
     
     p "Eu não li muitas coisas desses gêneros, mas lembro de ler algumas coisas da {i}Christie{/i} e do {i}King{/i} e achei bem legais. Conheço mais histórias de ficção científica e fantasia."
     
     p "Mas acho que vou dar uma chance pros horrores de {i}Lovecraft{/i} dessa vez... Qual livro você recomenda eu ler primeiro? Tem uma cronologia?"
     
-    show sofia happy
+    show sofia happy at noghost
     
-    s "Ótima escolha! *hehe* a maioria das histórias são bem desconexas, mas fazem parte do mesmo mundo. Como você {i}tava{/i} curioso com o Cleber, acho que você pode começar com ele mesmo. *risos* É um ótimo conto."
+    s "Ótima escolha! *hehe* a maioria das histórias são bem desconexas, mas fazem parte do mesmo mundo. Como você {i}tava{/i} curioso com o {i}Cleber{/i}, acho que você pode começar com ele mesmo. *risos* É um ótimo conto."
     
-    p "*risos* Ok, vou levar \"O Chamado do Cleber\", então. Obrigado!"
+    p "Ok, vou levar \"O Chamado do Cleber\", então *risos*. Obrigado!"
     
-    show sofia standing
+    show sofia standing at noghost
     
     s "De nada!"
     
@@ -131,10 +131,12 @@ label sofiafirstdate:
     
     p "Pode deixar. Obrigado pela ajuda! Eu vou ter que ir agora, mas a gente vai se falando. Foi um prazer!"
     
-    show sofia happy
+    show sofia happy at noghost
     
     s "Até! O prazer foi meu. Boa leitura!"
 
     # This ends the game.
+    
+    jump sofiaseconddate
 
     return
