@@ -44,47 +44,17 @@ image mariana excited = im.Scale("marianaexcited.png", 600, 800)
 
 label start:
 
-    play music "sounds/song1.wav"
-    
-    #Só pro SSS
-    #jump screenshotsaturday
-    
-    python:
-        povname = renpy.input("Qual seu nome?")
-        povname = povname.strip()
+        play music "sounds/song1.wav"
 
-        if not povname:
-             povname = "Protagonista-kun"
+        #Só pro SSS
+        #jump screenshotsaturday
+        python:
+            povname = renpy.input("Qual seu nome?")
+            povname = povname.strip()
 
-    jump intro
+            if not povname:
+                povname = "Protagonista-kun"
 
-    return
+        jump intro
 
-
-
-
-#Pro SSS, só deixei aqui de referência
-label screenshotsaturday:
-    
-    scene bg room
-    with Fade(0.7,0.2,0.7)
-    
-    show sofia standing at noghost
-    
-    s "Olá, eu sou a Sofia! Uma das personagens do Sick Love!"
-    
-    scene bg classroom
-    
-    show sofia evasive at noghost
-    
-    s "Eu estudo aqui na universidade. Às vezes são tantas obrigações que quase não sobra tempo de fazer o que eu mais gosto..."
-    
-    scene bg library
-    
-    show sofia happy at noghost
-    
-    s "Que é ler! A biblioteca é o meu lugar favorito de toda a universidade! Eu amo todos os livros, mas tenho uma queda por livros de horror."
-
-    s "Espero que você venha jogar Sick Love quando ele ficar pronto. Assim poderemos nos conhecer melhor!"
-    
-    s "{i}E terei você só pra mim...{/i}"
+        return

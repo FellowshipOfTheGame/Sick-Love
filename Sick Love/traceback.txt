@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/MarianaDate3.rpy", line 55, in script
+    show mariana exited at noghost
+  File "game/MarianaDate3.rpy", line 55, in <module>
+    show mariana exited at noghost
+NameError: name 'noghost' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/MarianaDate3.rpy", line 55, in script
+    show mariana exited at noghost
+  File "E:\Ren'py\renpy-7.1.3-sdk\renpy\ast.py", line 1150, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "E:\Ren'py\renpy-7.1.3-sdk\renpy\ast.py", line 1109, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "E:\Ren'py\renpy-7.1.3-sdk\renpy\python.py", line 1944, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\Ren'py\renpy-7.1.3-sdk\renpy\python.py", line 1937, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/MarianaDate3.rpy", line 55, in <module>
+    show mariana exited at noghost
+NameError: name 'noghost' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.1.3.1092
+Sick Love 1.0
+Mon May 13 23:34:03 2019

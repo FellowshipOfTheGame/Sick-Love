@@ -29,7 +29,7 @@ t "Eu me lembro que..."
 
 "Consegui ainda passar no dormitório pra deixar minhas malas."
 
-"O quarto é bem espaçoso, mesmo eu tendo que dividir não acho que vá ser um problema."
+"O quarto não é muito espaçoso, mas não terei ele só pra mim."
 
 t "Acho que até hoje os professores devem se perguntar quem fez aquilo, se ainda estiverem vivos HAHAHAHAHA"
 

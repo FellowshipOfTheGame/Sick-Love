@@ -19,7 +19,7 @@ p "Vamo, agora vai."
 
 p "NÃÃÃOO!!"
 
- "Droga, dessa vez eu realmente achei que ia dar certo. Eu não consigo mais jogar esse jogo."
+"Droga, dessa vez eu realmente achei que ia dar certo. Eu não consigo mais jogar esse jogo."
 
 p "..."
 
@@ -274,7 +274,7 @@ with Fade(0.7,0.2,0.7)
 
 "Já que não tem nada pra... {i}Pera{/i}, essa segunda já é dia 15?!?"
 
-"Eu tenho que ler um capitulo inteiro até lá!"
+"Eu tenho que ler um capítulo inteiro até lá!"
 
 "Droga, acho que não tenho tempo pra parar e refletir, os estudos me chamam!"
 
