@@ -83,7 +83,11 @@ m "Até. Espero que sobreviva até lá."
 scene bg classroom
 with Fade(0.7,0.2,0.7)
 
-t "E aqui encerraremos a aula de hoje, até amanhã."
+show professor at noghost
+
+t "E aqui encerraremos por hoje, até a próxima aula."
+
+hide professor
 
 "Meu Deus, por que eu fiz isso comigo?"
 
@@ -91,7 +95,7 @@ t "E aqui encerraremos a aula de hoje, até amanhã."
 
 "Como será que a Mariana aguenta isso? Deixe-me ver como ela {i}tá{/i}."
 
-show mariana sad
+show mariana sad at noghost
 
 p "Então, você se sente bem?"
 
@@ -101,7 +105,7 @@ m "..."
 
 p "Mariana, você tá bem?"
 
-show mariana standing
+show mariana standing at noghost
 
 m "Oi, {i}tô{/i} bem, e você?"
 
@@ -144,14 +148,14 @@ p "Claro! Bora ver quem ganha no {i}Street Kombat{/i}."
 
 #Trocar para o fliperama
 
-scene bg room
+scene bg arcade
 with Fade(0.7,0.2,0.7)
 
 "Será que ela já chegou? Eu acabei saindo de casa muito mais cedo, já que não sabia onde era o lugar, mas ele consegue ser bem chamativo."
 
 m "[povname] ? Oi!"
 
-show mariana standing
+show mariana standing at noghost
 
 p "E aí? Tranquilo? Quer jogar o que primeiro?"
 
@@ -161,9 +165,9 @@ p "Bem, tem {i}Pac Boy{/i}. Lembro que jogava muito em {i}sites{/i}, mas nunca j
 
 m "Então {i}bora{/i}."
 
-scene bg room
+scene bg arcade
 with Fade(0.7,0.2,0.7)
-show mariana standing
+show mariana standing at noghost
 
 m "Nossa, que jogo legal! Não sei o que é, mas jogar na máquina quase faz o jogo ficar mais divertido."
 
@@ -177,17 +181,17 @@ m "Definitivamente hahaha, quer jogar?"
 
 p "Claro!"
 
-scene bg room
+scene bg arcade
 with Fade(0.7,0.2,0.7)
-show mariana standing
+show mariana standing at noghost
 
 m "Aqui também tem outros jogos mais comuns. Quer tentar ir no jogo de arremesso à cesta?"
 
 p "Vamos, mas já deixo avisado que você que chamou."
 
-scene bg room
+scene bg arcade
 with Fade(0.7,0.2,0.7)
-show mariana sad
+show mariana sad at noghost
 
 m "Como você consegue fazer tantos pontos?"
 
@@ -195,14 +199,14 @@ p "Bem, talvez eu tenha um jeito pra coisa, quem sabe?"
 
 p "Quer jogar outra coisa? Podemos jogar {i}Street Kombat{/i}, mas já deixo avisado que eu não vou pegar leve."
 
-show mariana standing
+show mariana standing at noghost
 
 m "Opa, desculpa aí, vamos ver se você joga do mesmo tanto que você fala."
 
-scene bg room
+scene bg arcade
 with Fade(0.7,0.2,0.7)
 
-show mariana excited
+show mariana excited at noghost
 
 #sfx de controle
 m "E.... Pronto!"
@@ -213,11 +217,13 @@ m "Com isso ficamos como? 8x0? Eu perdi a conta."
 
 p "Mas... Como você é tão boa?"
 
-show mariana standing
+show mariana happy at noghost
 
 m "Bem, talvez eu tenha um jeito pra coisa, quem sabe? Hahaha."
 
 "Caramba, eu nunca vi alguém jogar assim. Só sei que não foi algum {i}hack{/i} porque ela está do meu lado."
+
+show mariana standing at noghost
 
 m "Pra ser sincera eu participava de campeonatos, até ganhei alguns menores."
 
@@ -227,13 +233,15 @@ m "Não precisa ficar boquiaberto, meninas também podem jogar em nível competi
 
 p "Eu sei, mas eu nunca tinha me encontrado pessoalmente com um jogador profissional. Me dá um autógrafo?"
 
+show mariana happy at noghost
+
 m "Hahaha deixa de se fazer de bobo, eu não dou autógrafo pra perdedor."
 
 p "Então é assim? Beleza, vamos então fazer uma revanche, tudo ou nada!"
 
 scene bg room
 with Fade(0.7,0.2,0.7)
-show mariana excited
+show mariana excited at noghost
 
 m "Não sei se me sinto boba por não ter apostado dinheiro ou se me sinto mal por ficar pisando em você."
 
@@ -241,7 +249,7 @@ p "Ok... Eu aceito minha derrota."
 
 "Se eu não tinha me feito de idiota antes agora eu consegui fazer isso com toda a classe e maestria de um bobo da corte."
 
-show mariana standing
+show mariana standing at noghost
 
 m "Não precisa ficar com essa cara, você joga bem, só não é nivel competitivo. Eu só estava zoando com a sua cara."
 
@@ -256,6 +264,8 @@ m "Pra falar a verdade eu estava com muito sono quando te mandei a mensagem e eu
 m "Mas que bom que você aceitou, hoje foi um dia muito legal, espero podermos sair mais vezes."
 
 p "Eu também me diverti muito, vamos procurar mais coisas pra fazer. Vamos desbravar essa cidade."
+
+show mariana happy
 
 m "{i}Wow{/i}, calma ai bandeirante. Vai com calma hahaha. Mas, bem, já vou indo. Tchau tchau."
 
@@ -272,7 +282,7 @@ with Fade(0.7,0.2,0.7)
 
 "Acho que vou aproveitar o resto do fim de semana pra lidar melhor com as ideias."
 
-"Já que não tem nada pra..." 
+"Já que não tem nada pra..."
 
 "{i}PERA{/i}" with Shake((0, 0, 0, 0), 0.7, dist=20)
 

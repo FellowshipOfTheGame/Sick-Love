@@ -42,6 +42,8 @@ image mariana standing = im.Scale("marianaidle.png",  1365, 840)
 image mariana evasive = im.Scale("marianaevasive.png",  1365, 840)
 image mariana sad = im.Scale("marianasad.png",  1365, 840)
 image mariana excited = im.Scale("marianaexcited.png",  1365, 840)
+image mariana blushed = im.Scale("marianablushed.png",  1365, 840)
+image mariana happy = im.Scale("marianahappy.png",  1365, 840)
 image professor = im.Scale("professor.png", 1365, 840)
 
 
