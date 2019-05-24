@@ -10,7 +10,7 @@ d "Eu não acho que os diretores vão ter coragem de fazer isso, ia ser muito ch
 
 m "Olha, até agora os filmes não fugiram muito dos quadrinhos, então não duvido nada que muitos personagens acabem morrendo mesmo."
 
-show mariana standing
+show mariana standing at noghost
 
 p "Vocês estão falando do filme que vai sair no fim do mês? Desculpa me intrometer, mas eu realmente {i}tô{/i} animado pro lançamento."
 
@@ -44,20 +44,20 @@ b "Bem, boa sorte comprando o ingresso então. Bora logo Diego, o tempo urge!"
 
 d "Calma Bruno, {i}tô{/i} indo, não precisa correr na frente!"
 
-scene bg room
+scene bg classroom
 with Fade(0.7,0.2,0.7)
 
-show mariana evasive
+show mariana evasive at noghost
 
 p "Não acredito... que vacilo..."
 
-show mariana standing
+show mariana standing at noghost
 
 m "É, não tem muito o que fazer... Mas relaxa, deve dar tempo de comprar amanhã."
 
 p "Assim espero... Eu não quero perder a estréia, {i}tô{/i} esperando esse filme a tanto tempo que acho que não conseguiria lidar com um {i}spoiler{/i}..."
 
-#mariana animada
+show mariana excited at noghost
 
 m "Mal você sabe que nesse exato momento você está correndo perigo! Eu li os quadrinhos, eu sei como o filme deve acabar. Acho bom vc ficar esperto, caso contrário..."
 
@@ -67,7 +67,7 @@ p "..."
 
 p "hahahaha. Bela risada de vilão, por um segundo achei que estivesse na frente de alguém que quer dominar o mundo."
 
-#retorno a expressão normal
+show mariana standing at noghost
 
 m "Obrigada, hahaha. Eu faço o possível."
 
@@ -101,7 +101,11 @@ m "Ao vivo e a cores."
 
 p "Você tem jogado algo recentemente? Eu também sei ser um menino {i}gamer{/i}, meu computador tem luzinhas."
 
+show mariana happy at noghost
+
 m "Como todo bom equipamento {i}gamer{/i}. *risos*"
+
+show mariana standing at noghost
 
 m "Recentemente eu só tenho tentado manter os cabelos na cabeça enquando jogo {i}Sekido: Shamans Die Twice{/i}."
 
@@ -127,7 +131,11 @@ m "Nossa, já {i}tá{/i} ficardo tarde! Acho melhor eu ir pro dormitório femini
 
 p "Ok, bons estudos!"
 
+show mariana happy at noghost
+
 m "Pra falar a verdade devo ficar jogando, mas vou continuar mentindo pra mim mesma até chegar no quarto. *risos*"
+
+show mariana standing at noghost
 
 m "Antes de ir, acho que não tenho o teu contato, você usa {i}Telegraph{/i}?"
 

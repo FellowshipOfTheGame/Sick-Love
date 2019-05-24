@@ -5,6 +5,8 @@ scene bg classroom
 
 "Ufa, acho que consegui chegar a tempo, a lousa ainda está vazia."
 
+show professor at noghost
+
 t "Então estejam preparados, a faculdade pode compor os melhores ou os piores anos de suas vidas, tudo depende de vocês..."
 
 "Nossa, isso foi desnecessariamente dramático."
@@ -86,3 +88,4 @@ menu:
     #"Ir ao ginásio":
 
         #"teste"
+return

@@ -38,10 +38,11 @@ define b = Character("Bruno", color = "#db8181", what_color = "#ce7575",what_pre
 define d = Character("Diego", color = "#ceb282", what_color = "#bfa57a",what_prefix='"', what_suffix='"')
 
 image bg classroom = im.Scale("bgclassroom.png", 1366, 768)
-image mariana standing = im.Scale("marianaidle.png", 600, 800)
-image mariana evasive = im.Scale("marianaevasive.png", 600, 800)
-image mariana sad = im.Scale("marianasad.png", 600, 800)
-image mariana excited = im.Scale("marianaexcited.png", 600, 800)
+image mariana standing = im.Scale("marianaidle.png",  1365, 840)
+image mariana evasive = im.Scale("marianaevasive.png",  1365, 840)
+image mariana sad = im.Scale("marianasad.png",  1365, 840)
+image mariana excited = im.Scale("marianaexcited.png",  1365, 840)
+image professor = im.Scale("professor.png", 1365, 840)
 
 
 # The game starts here.
