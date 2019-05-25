@@ -47,6 +47,21 @@ with Fade(0.7,0.2,0.7)
 
 "Eu realmente não esperava que o pessoal do passado fosse tão inventivo, estão de parabéns."
 
+<<<<<<< HEAD
 jump part1options
+=======
+menu:
+    "o que será que devo fazer essa semana?"
+
+    "Ir para a biblioteca":
+
+        jump sofiafirstdate
+
+    "Ficar e conversar com o grupo na sala":
+
+        jump marianafirstdate
+    #TODO Rafaela
+    #"Ir ao ginásio":
+>>>>>>> GIU updates
 
 return
