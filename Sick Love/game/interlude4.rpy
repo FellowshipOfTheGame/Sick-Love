@@ -1,10 +1,10 @@
-label interlude3:
+label interlude4:
 
 scene bg classroom
 
 "Será que hoje finalmente teremos uma aula normal com esse cara? Semana passada pareceu minimamente promissor."
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Pessoal, é com um grande pesar que venho informá-los que esta é a ultima aula que ministrarei para vocês."
 
@@ -38,20 +38,6 @@ with Fade(0.7,0.2,0.7)
 "Bem, acho que mesmo com suas aulas aleatórias sentirei saudades."
 
 
-menu:
-    "Mas enfim, o que farei nessa semana?"
-
-    "Ir para a biblioteca":
-
-        jump sofiafirstdate
-
-    "Ficar e conversar com o grupo na sala":
-
-        "Bem, acho que vou ver sobre o que eles estão falando ali, acho que ouvi alguem dizer algo sobre o novo filme que está pra sair"
-
-        jump marianafirstdate
-
-    #TODO Rafaela
-    #"Ir ao ginásio":
+jump part1options
 
 return

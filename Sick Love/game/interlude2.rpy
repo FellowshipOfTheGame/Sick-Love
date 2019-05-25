@@ -10,7 +10,7 @@ scene bg classroom
 
 "Ao invés de ficar ter que virar varias noites em uma semana e ficar louco, vou ficando louco aos poucos."
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Mas já tem prova chegando, vocês parecem estar um pouco nervosos."
 
@@ -47,15 +47,6 @@ with Fade(0.7,0.2,0.7)
 
 "Eu realmente não esperava que o pessoal do passado fosse tão inventivo, estão de parabéns."
 
-menu:
-    "o que será que devo fazer essa semana?"
-
-    "Ir para a biblioteca":
-
-    "Ficar e conversar com o grupo na sala":
-
-    
-    #TODO Rafaela
-    #"Ir ao ginásio":
+jump part1options
 
 return

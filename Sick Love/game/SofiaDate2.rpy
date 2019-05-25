@@ -7,6 +7,8 @@
 
 label sofiaseconddate:
 
+    $ nDatesSofia+=1
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -57,7 +59,7 @@ label sofiaseconddate:
     
     p "Esse final de semana você vai estar livre? Eu estava pensando em ir pra algum lugar e a gente pode trocar uma ideia sobre livros, a vida, o universo e tudo mais."
 
-    show sofia standing at noghost
+    show sofia cell at celltransform
 
     s "*risos* Gostei da referência. Eu estava querendo ir ver uma exposição temática de terror no museu. Disseram que está muito boa. Quer ir?"
 
@@ -287,7 +289,5 @@ label sofiaseconddate:
     "Droga. Eu nem comecei. Ok, essa noite vai ser longa..."
     
     # This ends the game.
-
-    jump sofiathirddate
 
     return

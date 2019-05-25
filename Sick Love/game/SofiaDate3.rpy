@@ -8,6 +8,9 @@
 
 label sofiathirddate:
 
+
+    $ nDatesSofia+=1
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -38,11 +41,9 @@ label sofiathirddate:
     
     " -{i}Algumas mensagens depois{/i}-"
     
-    show sofia standing at noghost
+    show sofia cell at celltransform
     
     s "Eu vou estar livre, sim! Finalmente as minhas provas também acabaram (por enquanto). Pelo {i}trailer{/i} parece que não vai ser tão ruim assim. Digo, normalmente adaptações de livros costumam ser bem tristes de ver."
-    
-    show sofia sad at noghost
     
     s "Especialmente depois que a gente já leu o livro e vai no {i}hype{/i} pro cinema esperando que eles vão ser fiéis o suficiente para pelos menos contar a mesma história do livro..."
     
@@ -50,13 +51,9 @@ label sofiathirddate:
     
     p "Mas, então, posso confirmar o filme?"
     
-    show sofia happy at noghost
-    
     s "Claro! Só não vai pular no meu colo se ficar com muito medo. *risos*"
     
     p "{i}Oloco{/i}!E esse {i}bullying{/i} gratuito aí? Nem tive que discar {i}0800{/i} pra receber. Vou me lembrar disso se um dia você vier aqui jogar os jogos do {i}Four Nights at Frank's{/i}. Não terá clemência quando você pular com os sustos. *risos*"
-    
-    show sofia standing at noghost
     
     s "Tudo bem, eu deixo você segurar minha mão se ficar com medo, não vou ser tão cruel... Mas, ou, [povname], vou ter que dar uma saída daqui. Vou ficar um tempo sem responder. Em todo caso, até o filme!"
     

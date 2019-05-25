@@ -5,7 +5,7 @@ scene bg classroom
 
 "Ufa, acho que consegui chegar a tempo, a lousa ainda está vazia."
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Então estejam preparados, a faculdade pode compor os melhores ou os piores anos de suas vidas, tudo depende de vocês..."
 
@@ -71,21 +71,6 @@ Bem, eu acho que posso chamar isso de uma primeira aula
 Vários alunos já sairam, mas tem um grupo que acabou ficando pra bater papo.
 """
 
-menu:
-    "O que devo fazer agora?"
+jump part1options
 
-    "Ir para a biblioteca":
-
-        jump sofiafirstdate
-
-    "Ficar e conversar com o grupo na sala":
-
-        "Bem, acho que vou ver sobre o que eles estão falando ali, acho que ouvi alguem dizer algo sobre o novo filme que está pra sair"
-
-        jump marianafirstdate
-
-    #TODO Rafaela
-    #"Ir ao ginásio":
-
-        #"teste"
 return
