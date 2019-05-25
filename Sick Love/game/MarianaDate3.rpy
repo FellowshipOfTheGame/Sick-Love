@@ -1,5 +1,7 @@
 label marianathirddate:
 
+$ nDatesMariana+=1
+
 scene bg room
 with Fade(0.7,0.2,0.7)
 
@@ -52,7 +54,7 @@ with Fade(0.7,0.2,0.7)
 
 p "É acho que o grosso deu pra organizar."
 
-show mariana exited at noghost
+show mariana excited at noghost
 
 m "Oolá meu jovem, preparado para jogatina desta noite maravilhosa?"
 

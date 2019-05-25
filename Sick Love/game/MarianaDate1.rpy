@@ -2,7 +2,7 @@ label marianafirstdate:
 
 scene bg room
 
-
+$ nDatesMariana+=1
 
 b "...Mas pelo ultimo trailer esse novo filme deve mudar tudo cara, deve morrer metade dos personagens."
 

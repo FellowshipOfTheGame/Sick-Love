@@ -71,21 +71,6 @@ Bem, eu acho que posso chamar isso de uma primeira aula
 Vários alunos já sairam, mas tem um grupo que acabou ficando pra bater papo.
 """
 
-menu:
-    "O que devo fazer agora?"
+jump part1options
 
-    "Ir para a biblioteca":
-
-        jump sofiafirstdate
-
-    "Ficar e conversar com o grupo na sala":
-
-        "Bem, acho que vou ver sobre o que eles estão falando ali, acho que ouvi alguem dizer algo sobre o novo filme que está pra sair"
-
-        jump marianafirstdate
-
-    #TODO Rafaela
-    #"Ir ao ginásio":
-
-        #"teste"
 return

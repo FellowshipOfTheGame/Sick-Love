@@ -47,9 +47,23 @@ image mariana happy = im.Scale("marianahappy.png",  1365, 840)
 image professor = im.Scale("professor.png", 1365, 840)
 
 
+#Variables of story decision
+
+label checkInterlude(date):  
+    if nDatesSofia == 3 or nDatesMariana == 3 or nDatesRafaela == 3:
+        jump part2
+    else:
+        jump expression date
+    return
+
 # The game starts here.
 
 label start:
+
+        #Variables need to be initialized here!!!
+        $ nDatesSofia = 0
+        $ nDatesMariana = 0
+        $ nDatesRafaela = 0
 
         play music "sounds/song1.wav"
 
@@ -62,6 +76,18 @@ label start:
             if not povname:
                 povname = "Protagonista-kun"
 
-        jump intro
+        call intro
 
+        call checkInterlude("interlude1")
+        
+        call checkInterlude("interlude2")
+             
+        call checkInterlude("interlude3")
+            
+        call checkInterlude("interlude4")
+        
+        call checkInterlude("interlude5")
+        
+        call checkInterlude("goodEnding")
+        
         return

@@ -29,14 +29,6 @@ with Fade(0.7,0.2,0.7)
 
 "E assim se passa mais uma aula desse professor em que nenhuma matéria é passada."
 
-menu:
-    "o que será que devo fazer essa semana?"
-
-    "Ir para a biblioteca":
-
-    "Ficar e conversar com o grupo na sala":
-
-    #TODO Rafaela
-    #"Ir ao ginásio":
+jump part1options
 
 return

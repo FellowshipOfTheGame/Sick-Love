@@ -1,5 +1,7 @@
 label marianaseconddate:
 
+$ nDatesMariana+=1
+
 scene bg room
 with Fade(0.7,0.2,0.7)
 
@@ -74,7 +76,7 @@ m "Aí é que você se engana."
 
 m "Tenho uma longa experiência virando noites e indo pra aula, na verdade isso pra mim já é coisa de rotina."
 
-m "Amanhã vou só tomar um café e estarei 100%."
+m "Amanhã vou só tomar um café e estarei 100\%."
 
 p "{i}Ata{/i}, quero ver então. Até amanhã, eu acho."
 

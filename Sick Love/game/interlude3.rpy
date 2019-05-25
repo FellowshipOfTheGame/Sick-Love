@@ -31,15 +31,6 @@ with Fade(0.7,0.2,0.7)
 
 "Bem, no fim das contas ele só contou histórias como sempre, só que desta vez foram histórias relacionadas com o curso."
 
-menu:
-    "o que será que devo fazer essa semana?"
-
-    "Ir para a biblioteca":
-
-    "Ficar e conversar com o grupo na sala":
-
-
-    #TODO Rafaela
-    #"Ir ao ginásio":
+jump part1options
 
 return
