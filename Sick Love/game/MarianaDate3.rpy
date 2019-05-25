@@ -15,6 +15,8 @@ with Fade(0.7,0.2,0.7)
 
 #TODO mostrar o celular
 
+show mariana cell at celltransform
+
 p "Oi Mariana, tudo bem?"
 
 m "Opa, tudo tranquilo aqui. Como você {i}tá{/i}?"
@@ -36,6 +38,7 @@ m "Tranquilo. Já já chego ai, beleza?"
 p "Sem problemas."
 
 #Sai do celular
+hide mariana
 
 "Quem diria que ela viria aqui, espero que corra tudo bem."
 
@@ -54,19 +57,19 @@ with Fade(0.7,0.2,0.7)
 
 p "É acho que o grosso deu pra organizar."
 
-show mariana excited at noghost
+show mariana excited at arantesnoghost
 
 m "Oolá meu jovem, preparado para jogatina desta noite maravilhosa?"
 
 p "Mais que preparado. Você realmente consegue se passar muito bem por uma {i}NPC{/i} que me daria algumas {i}quests{/i}, parabéns pelo bom trabalho."
 
-show mariana happy at noghost
+show mariana happy at arantesnoghost
 
 m "Hahaha, eu tento. E aí? tudo pronto? Eu trouxe meus controles caso você não tivesse."
 
 p "Ah, boa, pra falar a verdade eu só tenho um controle."
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 p "Por sorte um amigo que tem conta compartilhada comigo tem o jogo, então já está terminando de baixar."
 
@@ -91,13 +94,13 @@ with Fade(0.7,0.2,0.7)
 
 "Droga, perdemos."
 
-show mariana evasive at noghost
+show mariana evasive at arantesnoghost
 
 m "Poxa, [povname], você parece estar um pouco desligado, {i}tá{/i} tudo bem?"
 
 p "Foi mal, esse jogo é mais dificil do que parece hahaha."
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 "Ela até está apoiando a cabeça no meu ombro, acho que nunca estivemos tão próximos."
 
@@ -111,7 +114,7 @@ p "Mariana, por acaso..."
 
 "{i}[povname] aproxima seu rosto do de Mariana, que segura sua nuca e o puxa em um beijo.{/i}"
 
-show mariana blushed ato noghost
+show mariana blushed at arantesnoghost
 
 m "Desculpa, o que você ia dizer?"
 

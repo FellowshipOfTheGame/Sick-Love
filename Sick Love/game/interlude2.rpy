@@ -10,7 +10,7 @@ scene bg classroom
 
 "Ao invés de ficar ter que virar varias noites em uma semana e ficar louco, vou ficando louco aos poucos."
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Mas já tem prova chegando, vocês parecem estar um pouco nervosos."
 

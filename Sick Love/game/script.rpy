@@ -17,7 +17,7 @@ image bg arcade = im.Scale("bgarcade.png", 1366, 768)
 image bg movies = im.Scale("bgmovies.png", 1366, 768)
 image black = "#000"
 
-#Declare all characters images here
+#Declare all sofia images here
 image sofia standing = im.Scale("sofia.png", 1365, 840)
 image sofia happy = im.Scale("sofia_sorrindo.png", 1365, 840)
 image sofia sad = im.Scale("sofia_triste.png", 1365, 840)
@@ -26,10 +26,19 @@ image sofia crying = im.Scale("sofia_chorando.png", 1365, 840)
 image sofia evasive = im.Scale("sofia_evasiva.png", 1365, 840)
 image sofia upset = im.Scale("sofia_irritada.png", 1365, 840)
 image sofia shy = im.Scale("sofia_envergonhada.png", 1365, 840)
+image sofia cell = im.Scale("sofiacell.png", 390, 670)
 
 transform noghost:
     xalign 0.5
     yalign -0.9
+    
+transform arantesnoghost:
+    xalign 0.5
+    yalign 1.0
+    
+transform celltransform:
+    xalign 0.5
+    yalign 0.5
 
 define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
 
@@ -37,14 +46,19 @@ define b = Character("Bruno", color = "#db8181", what_color = "#ce7575",what_pre
 
 define d = Character("Diego", color = "#ceb282", what_color = "#bfa57a",what_prefix='"', what_suffix='"')
 
-image bg classroom = im.Scale("bgclassroom.png", 1366, 768)
-image mariana standing = im.Scale("marianaidle.png",  1365, 840)
-image mariana evasive = im.Scale("marianaevasive.png",  1365, 840)
-image mariana sad = im.Scale("marianasad.png",  1365, 840)
-image mariana excited = im.Scale("marianaexcited.png",  1365, 840)
-image mariana blushed = im.Scale("marianablushed.png",  1365, 840)
-image mariana happy = im.Scale("marianahappy.png",  1365, 840)
-image professor = im.Scale("professor.png", 1365, 840)
+
+#Declare all mariana images here
+image mariana standing = im.Scale("marianaidle.png", 504, 600)
+image mariana evasive = im.Scale("marianaevasive.png", 504, 600)
+image mariana sad = im.Scale("marianasad.png", 504, 600)
+image mariana excited = im.Scale("marianaexcited.png", 504, 600)
+image mariana blushed = im.Scale("marianablushed.png", 504, 600)
+image mariana happy = im.Scale("marianahappy.png", 504, 600)
+image mariana cell = im.Scale("marianacell.png", 390, 670)
+
+image professor = im.Scale("professor.png", 504, 600)
+
+
 
 
 #Variables of story decision

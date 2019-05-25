@@ -2,7 +2,7 @@ label interlude3:
 
 scene bg classroom
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Pessoal, o que aconteceu? A cada semana que passa vejo menos pessoas vindo à aula."
 

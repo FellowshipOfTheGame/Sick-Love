@@ -46,6 +46,8 @@ p "BOOOAAAAAA!!"
 
 #pega o celular
 
+show mariana cell at celltransform
+
 p "Oi, e aí, como você está?"
 
 p "Antes que pergunte, eu estou ótimo, consegui terminar {i}Sekido{/i}, mesmo desacreditado."
@@ -82,10 +84,12 @@ p "{i}Ata{/i}, quero ver então. Até amanhã, eu acho."
 
 m "Até. Espero que sobreviva até lá."
 
+hide mariana
+
 scene bg classroom
 with Fade(0.7,0.2,0.7)
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "E aqui encerraremos por hoje, até a próxima aula."
 
@@ -97,7 +101,7 @@ hide professor
 
 "Como será que a Mariana aguenta isso? Deixe-me ver como ela {i}tá{/i}."
 
-show mariana sad at noghost
+show mariana sad at arantesnoghost
 
 p "Então, você se sente bem?"
 
@@ -107,7 +111,7 @@ m "..."
 
 p "Mariana, você tá bem?"
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 m "Oi, {i}tô{/i} bem, e você?"
 
@@ -118,6 +122,8 @@ p "Acho que não foi uma boa ideia virar a noite pelo dia, acho que vou voltar p
 m "É, talvez não foi minha ideia mais brilhante, mas faltava tão pouco pra terminar o jogo..."
 
 p "Eu sei... Eu sei..."
+
+hide mariana
 
 scene bg room
 with Fade(0.7,0.2,0.7)
@@ -130,6 +136,8 @@ with Fade(0.7,0.2,0.7)
 
 "Nossa, ela mandou isso faz muito tempo, deve ter mandado ainda antes de ir dormir."
 
+show mariana cell at celltransform
+
 m "Ei, ouvi dizer que abriu um fliperama aqui perto da faculdade, na página deles {i}tá{/i} falando que tem vários jogos clássicos."
 
 m "Tá afim de ir comigo no fim de semana? Não queria ir sozinha."
@@ -137,6 +145,8 @@ m "Tá afim de ir comigo no fim de semana? Não queria ir sozinha."
 "Nossa, quem poderia imaginar que ainda teria gente comercializando essas máquinas."
 
 p "Claro! Bora ver quem ganha no {i}Street Kombat{/i}."
+
+hide mariana
 
 "Mal sabe ela que eu era o melhor jogador de {i}Street Kombat{/i} do meu prédio."
 
@@ -151,13 +161,13 @@ p "Claro! Bora ver quem ganha no {i}Street Kombat{/i}."
 #Trocar para o fliperama
 
 scene bg arcade
-with Fade(0.7,0.2,0.7)
+with Fade(0.7,1.0,0.7)
 
 "Será que ela já chegou? Eu acabei saindo de casa muito mais cedo, já que não sabia onde era o lugar, mas ele consegue ser bem chamativo."
 
 m "[povname] ? Oi!"
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 p "E aí? Tranquilo? Quer jogar o que primeiro?"
 
@@ -168,8 +178,8 @@ p "Bem, tem {i}Pac Boy{/i}. Lembro que jogava muito em {i}sites{/i}, mas nunca j
 m "Então {i}bora{/i}."
 
 scene bg arcade
-with Fade(0.7,0.2,0.7)
-show mariana standing at noghost
+with Fade(0.2,1.0,0.7)
+show mariana standing at arantesnoghost
 
 m "Nossa, que jogo legal! Não sei o que é, mas jogar na máquina quase faz o jogo ficar mais divertido."
 
@@ -184,16 +194,16 @@ m "Definitivamente hahaha, quer jogar?"
 p "Claro!"
 
 scene bg arcade
-with Fade(0.7,0.2,0.7)
-show mariana standing at noghost
+with Fade(0.2,1.0,0.7)
+show mariana standing at arantesnoghost
 
 m "Aqui também tem outros jogos mais comuns. Quer tentar ir no jogo de arremesso à cesta?"
 
 p "Vamos, mas já deixo avisado que você que chamou."
 
 scene bg arcade
-with Fade(0.7,0.2,0.7)
-show mariana sad at noghost
+with Fade(0.2,1.0,0.7)
+show mariana sad at arantesnoghost
 
 m "Como você consegue fazer tantos pontos?"
 
@@ -201,14 +211,14 @@ p "Bem, talvez eu tenha um jeito pra coisa, quem sabe?"
 
 p "Quer jogar outra coisa? Podemos jogar {i}Street Kombat{/i}, mas já deixo avisado que eu não vou pegar leve."
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 m "Opa, desculpa aí, vamos ver se você joga do mesmo tanto que você fala."
 
 scene bg arcade
-with Fade(0.7,0.2,0.7)
+with Fade(0.2,1.0,0.7)
 
-show mariana excited at noghost
+show mariana excited at arantesnoghost
 
 #sfx de controle
 m "E.... Pronto!"
@@ -219,13 +229,13 @@ m "Com isso ficamos como? 8x0? Eu perdi a conta."
 
 p "Mas... Como você é tão boa?"
 
-show mariana happy at noghost
+show mariana happy at arantesnoghost
 
 m "Bem, talvez eu tenha um jeito pra coisa, quem sabe? Hahaha."
 
 "Caramba, eu nunca vi alguém jogar assim. Só sei que não foi algum {i}hack{/i} porque ela está do meu lado."
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 m "Pra ser sincera eu participava de campeonatos, até ganhei alguns menores."
 
@@ -235,15 +245,15 @@ m "Não precisa ficar boquiaberto, meninas também podem jogar em nível competi
 
 p "Eu sei, mas eu nunca tinha me encontrado pessoalmente com um jogador profissional. Me dá um autógrafo?"
 
-show mariana happy at noghost
+show mariana happy at arantesnoghost
 
 m "Hahaha deixa de se fazer de bobo, eu não dou autógrafo pra perdedor."
 
 p "Então é assim? Beleza, vamos então fazer uma revanche, tudo ou nada!"
 
-scene bg room
-with Fade(0.7,0.2,0.7)
-show mariana excited at noghost
+scene bg arcade
+with Fade(0.2,1.0,0.7)
+show mariana excited at arantesnoghost
 
 m "Não sei se me sinto boba por não ter apostado dinheiro ou se me sinto mal por ficar pisando em você."
 
@@ -251,7 +261,7 @@ p "Ok... Eu aceito minha derrota."
 
 "Se eu não tinha me feito de idiota antes agora eu consegui fazer isso com toda a classe e maestria de um bobo da corte."
 
-show mariana standing at noghost
+show mariana standing at arantesnoghost
 
 m "Não precisa ficar com essa cara, você joga bem, só não é nivel competitivo. Eu só estava zoando com a sua cara."
 
@@ -267,12 +277,12 @@ m "Mas que bom que você aceitou, hoje foi um dia muito legal, espero podermos s
 
 p "Eu também me diverti muito, vamos procurar mais coisas pra fazer. Vamos desbravar essa cidade."
 
-show mariana happy
+show mariana happy at arantesnoghost
 
 m "{i}Wow{/i}, calma ai bandeirante. Vai com calma hahaha. Mas, bem, já vou indo. Tchau tchau."
 
 scene bg room
-with Fade(0.7,0.2,0.7)
+with Fade(0.7,1.0,0.7)
 
 "Hoje foi muito legal, acabou que não rolou nada entre nós dois, mas quando fomos nos despedir, acho que ela estava um pouco vermelha."
 

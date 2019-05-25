@@ -4,7 +4,7 @@ scene bg classroom
 
 "Será que hoje finalmente teremos uma aula normal com esse cara? Semana passada pareceu minimamente promissor."
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Pessoal, é com um grande pesar que venho informá-los que esta é a ultima aula que ministrarei para vocês."
 

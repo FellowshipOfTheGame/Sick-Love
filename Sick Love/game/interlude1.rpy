@@ -6,7 +6,7 @@ scene bg classroom
 
 "Em outras matérias eu até ja tenho alguns exercícios pra fazer, não estão perdendo tempo, mas aqui..."
 
-show professor at noghost
+show professor at arantesnoghost
 
 t "Agora acho que vocês vão acalmar um pouco, não é?"
 
