@@ -101,7 +101,7 @@ hide professor
 
 "Como será que a Mariana aguenta isso? Deixe-me ver como ela {i}tá{/i}."
 
-show mariana sad at arantesnoghost
+show mariana mad at arantesnoghost
 
 p "Então, você se sente bem?"
 
@@ -111,13 +111,13 @@ m "..."
 
 p "Mariana, você tá bem?"
 
-show mariana standing at arantesnoghost
+show mariana sad at arantesnoghost
 
 m "Oi, {i}tô{/i} bem, e você?"
 
 p "Talvez melhor que você."
 
-p "Acho que não foi uma boa ideia virar a noite pelo dia, acho que vou voltar pro quarto e ir dormir mais cedo."
+p "Acho que não foi uma boa ideia virar a noite, acho que vou voltar pro quarto e ir dormir mais cedo."
 
 m "É, talvez não foi minha ideia mais brilhante, mas faltava tão pouco pra terminar o jogo..."
 
@@ -189,7 +189,9 @@ m "É incrível como eles conseguiam fazer jogos tão diferentes com uma tecnolo
 
 p "Espera um pouco, meus ouvidos me enganam ou eu ouço Betris?"
 
-m "Definitivamente hahaha, quer jogar?"
+show mariana happy at arantesnoghost
+
+m "Definitivamente *risos*, quer jogar?"
 
 p "Claro!"
 
@@ -231,7 +233,7 @@ p "Mas... Como você é tão boa?"
 
 show mariana happy at arantesnoghost
 
-m "Bem, talvez eu tenha um jeito pra coisa, quem sabe? Hahaha."
+m "Bem, talvez eu tenha um jeito pra coisa, quem sabe? *risos*."
 
 "Caramba, eu nunca vi alguém jogar assim. Só sei que não foi algum {i}hack{/i} porque ela está do meu lado."
 
@@ -247,7 +249,7 @@ p "Eu sei, mas eu nunca tinha me encontrado pessoalmente com um jogador profissi
 
 show mariana happy at arantesnoghost
 
-m "Hahaha deixa de se fazer de bobo, eu não dou autógrafo pra perdedor."
+m "*risos* Deixa de se fazer de bobo, eu não dou autógrafo pra perdedor."
 
 p "Então é assim? Beleza, vamos então fazer uma revanche, tudo ou nada!"
 
@@ -263,7 +265,7 @@ p "Ok... Eu aceito minha derrota."
 
 show mariana standing at arantesnoghost
 
-m "Não precisa ficar com essa cara, você joga bem, só não é nivel competitivo. Eu só estava zoando com a sua cara."
+m "Não precisa ficar com essa cara, você joga bem, só não é nível competitivo. Eu só estava zoando com a sua cara."
 
 m "Na verdade talvez já seja a hora de voltarmos pra casa, já estão fechando o fliperama."
 
@@ -275,11 +277,11 @@ m "Pra falar a verdade eu estava com muito sono quando te mandei a mensagem e eu
 
 m "Mas que bom que você aceitou, hoje foi um dia muito legal, espero podermos sair mais vezes."
 
-p "Eu também me diverti muito, vamos procurar mais coisas pra fazer. Vamos desbravar essa cidade."
+p "Eu também me diverti muito, vamos procurar mais coisas pra fazer. Vamos desbravar essa cidade!"
 
 show mariana happy at arantesnoghost
 
-m "{i}Wow{/i}, calma ai bandeirante. Vai com calma hahaha. Mas, bem, já vou indo. Tchau tchau."
+m "{i}Wow{/i}, calma ai bandeirante. Vai com calma *risos*. Mas, bem, já vou indo. Tchau tchau."
 
 scene bg room
 with Fade(0.7,1.0,0.7)

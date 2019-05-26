@@ -7,3 +7,5 @@ label part2:
     "O que acontecerá na vida deste novo casal? Como a vida deles seguirá? Como eles viverão seus momentos felizes? Como eles resolverão seus conflitos? Como eles lidarão com as diferenças?"
 
     "Essa história fica para outro dia. Um dia não muito distante. Mas ainda não é a hora certa para contar a vocês."
+
+    return

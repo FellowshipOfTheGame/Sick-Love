@@ -1,6 +1,8 @@
 label interlude1:
 
-scene bg classroom
+scene black with Fade(0.7,0.2,0.7)
+
+scene bg classroom with Fade(0.7,0.2,0.7)
 
 "Essa primeira semana até que foi tranquila, será que essa semana vai ser igual?"
 
@@ -29,22 +31,6 @@ with Fade(0.7,0.2,0.7)
 
 "E assim se passa mais uma aula desse professor em que nenhuma matéria é passada."
 
-<<<<<<< HEAD
 jump part1options
-=======
-menu:
-    "o que será que devo fazer essa semana?"
-
-    "Ir para a biblioteca":
-
-        jump sofiafirstdate
-
-    "Ficar e conversar com o grupo na sala":
-
-        jump marianafirstdate
-
-    #TODO Rafaela
-    #"Ir ao ginásio":
->>>>>>> GIU updates
 
 return

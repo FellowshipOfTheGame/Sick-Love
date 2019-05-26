@@ -1,6 +1,8 @@
 label interlude4:
 
-scene bg classroom
+scene black with Fade(0.7,0.2,0.7)
+
+scene bg classroom with Fade(0.7,0.2,0.7)
 
 "Será que hoje finalmente teremos uma aula normal com esse cara? Semana passada pareceu minimamente promissor."
 

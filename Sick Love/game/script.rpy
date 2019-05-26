@@ -2,9 +2,12 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define t = Character("Professor", color = "#36F3AE", what_color = "#2BD798",what_prefix='"', what_suffix='"')
-define s = Character("Sofia", color = "#00b3f4", what_color = "#49daff",what_prefix='"', what_suffix='"')
-define p = Character("[povname]", color = "#e0e0e0", what_color = "#ffffff", what_prefix='"', what_suffix='"')
+define t = Character("Professor", color = "#751aff", what_color = "#944dff",what_prefix='"', what_suffix='"')
+define s = Character("Sofia", color = "#0083b3", what_color = "#00a8e6",what_prefix='"', what_suffix='"')
+define p = Character("[povname]", color = "#e6e6e6", what_color = "#ffffff", what_prefix='"', what_suffix='"')
+define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
+define b = Character("Bruno", color = "#b33232", what_color = "#cd4c4c",what_prefix='"', what_suffix='"')
+define d = Character("Diego", color = "#5c4724", what_color = "#816432",what_prefix='"', what_suffix='"')
 
 
 # Declare all background images here
@@ -31,26 +34,20 @@ image sofia cell = im.Scale("sofiacell.png", 390, 670)
 transform noghost:
     xalign 0.5
     yalign -0.9
-    
+
 transform arantesnoghost:
     xalign 0.5
     yalign 1.0
-    
+
 transform celltransform:
     xalign 0.5
     yalign 0.5
-
-define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
-
-define b = Character("Bruno", color = "#db8181", what_color = "#ce7575",what_prefix='"', what_suffix='"')
-
-define d = Character("Diego", color = "#ceb282", what_color = "#bfa57a",what_prefix='"', what_suffix='"')
-
 
 #Declare all mariana images here
 image mariana standing = im.Scale("marianaidle.png", 504, 600)
 image mariana evasive = im.Scale("marianaevasive.png", 504, 600)
 image mariana sad = im.Scale("marianasad.png", 504, 600)
+image mariana mad = im.Scale("marianamad.png", 504, 600)
 image mariana excited = im.Scale("marianaexcited.png", 504, 600)
 image mariana blushed = im.Scale("marianablushed.png", 504, 600)
 image mariana happy = im.Scale("marianahappy.png", 504, 600)
@@ -63,9 +60,13 @@ image professor = im.Scale("professor.png", 504, 600)
 
 #Variables of story decision
 
-label checkInterlude(date):  
+label checkInterlude(date):
     if nDatesSofia == 3 or nDatesMariana == 3 or nDatesRafaela == 3:
-        jump part2
+        if not ended:
+            $ ended = True
+            jump part2
+        else:
+            return
     else:
         jump expression date
     return
@@ -78,6 +79,7 @@ label start:
         $ nDatesSofia = 0
         $ nDatesMariana = 0
         $ nDatesRafaela = 0
+        $ ended = False
 
         play music "sounds/song1.wav"
 
@@ -93,15 +95,15 @@ label start:
         call intro
 
         call checkInterlude("interlude1")
-        
+
         call checkInterlude("interlude2")
-             
+
         call checkInterlude("interlude3")
-            
+
         call checkInterlude("interlude4")
-        
+
         call checkInterlude("interlude5")
-        
+
         call checkInterlude("goodEnding")
-        
+
         return

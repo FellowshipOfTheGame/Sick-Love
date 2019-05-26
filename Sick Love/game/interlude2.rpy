@@ -1,6 +1,8 @@
 label interlude2:
 
-scene bg classroom
+scene black with Fade(0.7,0.2,0.7)
+
+scene bg classroom with Fade(0.7,0.2,0.7)
 
 "Nossa, ainda nem terminamos o primeiro mês de aulas e já tem algumas provas chegando."
 
@@ -12,7 +14,7 @@ scene bg classroom
 
 show professor at arantesnoghost
 
-t "Mas já tem prova chegando, vocês parecem estar um pouco nervosos."
+t "Mas já tem prova chegando? Vocês parecem estar um pouco nervosos."
 
 "Falando nisso, esse é um belo exemplo de uma matéria que não conseguimos negociar nada."
 
@@ -22,9 +24,9 @@ t "Mas já tem prova chegando, vocês parecem estar um pouco nervosos."
 
 "Se o conteudo da prova for o mesmo passado em sala de aula a ela vai ser sobre as crônicas de alguem que chegou até os 70 são."
 
-"Se bem que essa ultima parte é um pouco questionavel."
+"Se bem que essa ultima parte é um pouco questionável."
 
-t "Só de falar em provas já lembro das peripércias que faziamos pra conseguir colar nas provas."
+t "Só de falar em provas já lembro das peripécias que faziamos pra conseguir colar nas provas."
 
 t "Sim, nós professores não somos bobos, nós sabemos que alunos colam nas provas, lembrem-se que para virar um professor um dia você teve de ser um aluno."
 
@@ -47,21 +49,6 @@ with Fade(0.7,0.2,0.7)
 
 "Eu realmente não esperava que o pessoal do passado fosse tão inventivo, estão de parabéns."
 
-<<<<<<< HEAD
 jump part1options
-=======
-menu:
-    "o que será que devo fazer essa semana?"
-
-    "Ir para a biblioteca":
-
-        jump sofiafirstdate
-
-    "Ficar e conversar com o grupo na sala":
-
-        jump marianafirstdate
-    #TODO Rafaela
-    #"Ir ao ginásio":
->>>>>>> GIU updates
 
 return

@@ -65,7 +65,7 @@ p "Mais que preparado. Você realmente consegue se passar muito bem por uma {i}N
 
 show mariana happy at arantesnoghost
 
-m "Hahaha, eu tento. E aí? tudo pronto? Eu trouxe meus controles caso você não tivesse."
+m "*risos* Eu tento. E aí? tudo pronto? Eu trouxe meus controles caso você não tivesse."
 
 p "Ah, boa, pra falar a verdade eu só tenho um controle."
 
@@ -79,7 +79,7 @@ m "Pra ser sincera eu estou impressionada, seu quarto até que está bem arrumad
 
 m "Mas, de qualquer forma, bom trabalho."
 
-p "Bem, eu tento haha."
+p "Bem, eu tento *riso nervoso*."
 
 m "E então, {i}bora{/i} jogar?"
 
@@ -88,7 +88,7 @@ with Fade(0.7,0.2,0.7)
 
 #TODO add sfx videogame
 
-"Nossa, mesmo com esses gráficos simples esse jogo consegue ser bem difícil. Mas, mais importante que isso, que bom que estou conseguindo passar mais tempo com a Mariana."
+"Nossa, mesmo com esses gráficos que fazem o jogo parecer simples, ele consegue ser bem difícil. Mas, mais importante que isso, que bom que estou conseguindo passar mais tempo com a Mariana."
 
 "Ela também parece estar bem animada jogando, até me deu uns abraços no fim de algumas fases difíceis, mas até ai eu também já fiz isso com amigos. Não devo ficar imaginando coisas."
 
@@ -98,13 +98,13 @@ show mariana evasive at arantesnoghost
 
 m "Poxa, [povname], você parece estar um pouco desligado, {i}tá{/i} tudo bem?"
 
-p "Foi mal, esse jogo é mais dificil do que parece hahaha."
+p "Foi mal, esse jogo é mais dificil do que parece *riso nervoso*."
 
 show mariana standing at arantesnoghost
 
 "Ela até está apoiando a cabeça no meu ombro, acho que nunca estivemos tão próximos."
 
-m "Relaxa, só estou enchendo teu saco hihihi."
+m "Relaxa, só estou enchendo teu saco *risos*."
 
 "Ela parece muito confortável comigo, será que ela gosta mesmo de mim?"
 
@@ -142,9 +142,9 @@ p "Eu também, queria poder passar mais tempo contigo."
 
 m "Então... Quer namorar comigo?"
 
-p "Bem, roubou minhas palavras."
+p "Bem..."
 
-"Eu só preciso de um último abraço antes dela ir."
+p "Roubou minhas palavras."
 
 p "Tchau tchau, amanhã nos falamos mais."
 
