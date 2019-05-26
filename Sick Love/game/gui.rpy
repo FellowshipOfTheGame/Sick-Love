@@ -79,7 +79,7 @@ define gui.label_text_size = 26
 define gui.notify_text_size = 18
 
 ## The size of the game's title.
-define gui.title_text_size = 54
+define gui.title_text_size = 74
 
 
 ## Main and Game Menus #########################################################
@@ -149,7 +149,7 @@ define gui.button_width = None
 define gui.button_height = None
 
 ## The borders on each side of the button, in left, top, right, bottom order.
-define gui.button_borders = Borders(5, 5, 5, 5)
+define gui.button_borders = Borders(20, 5, 20, 5)
 
 ## If True, the background image will be tiled. If False, the background image
 ## will be linearly scaled.
@@ -178,9 +178,9 @@ define gui.button_text_xalign = 0.0
 ##
 ## These customizations are used by the default interface:
 
-define gui.radio_button_borders = Borders(20, 5, 5, 5)
+define gui.radio_button_borders = Borders(20, 5, 20, 5)
 
-define gui.check_button_borders = Borders(20, 5, 5, 5)
+define gui.check_button_borders = Borders(20, 5, 20, 5)
 
 define gui.confirm_button_text_xalign = 0.5
 
@@ -264,7 +264,7 @@ define gui.navigation_spacing = 5
 define gui.pref_spacing = 11
 
 ## Controls the amount of spacing between preference buttons.
-define gui.pref_button_spacing = 0
+define gui.pref_button_spacing = 10
 
 ## The spacing between file page buttons.
 define gui.page_spacing = 0

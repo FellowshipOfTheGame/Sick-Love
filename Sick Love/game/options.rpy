@@ -18,19 +18,27 @@ define config.name = _("Sick Love")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "0.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-""")
+define gui.about = _p("""{b}Roteiro e Programacao:{/b} \'Mestre Leo\' Leonardo Tortoro Pereira e Ricardo Luiz \'Pequi\'
+                      
+                      {b}Design e Arte das Personages:{/b} Gabriel Arantes \'Lombardi\' e Leonardo Maronezi Pizani
+                      
+                      {b}Artes de Menu e Interface:{/b} Leonardo Maronezi Pizani
+                      
+                      {b}Arte de Cenarios:{/b} William Paulo Dreamer
+                      
+                      {b}Musicas e Efeitos Sonoros{/b}: Jorge Luiz Batma
+                      """)
 
 
 ## A short name for the game used for executables and directories in the built
