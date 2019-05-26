@@ -26,3 +26,7 @@ SickLove-1\.0-dists/SickLove-1\.0-pc\.zip
 *.json
 
 *.rpymc
+
+*.bak
+
+SickLove-0\.1-dists/

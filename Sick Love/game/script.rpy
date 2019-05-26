@@ -92,18 +92,18 @@ label start:
             if not povname:
                 povname = "Protagonista-kun"
 
-        call intro
+        call intro from _call_intro
 
-        call checkInterlude("interlude1")
+        call checkInterlude("interlude1") from _call_checkInterlude
 
-        call checkInterlude("interlude2")
+        call checkInterlude("interlude2") from _call_checkInterlude_1
 
-        call checkInterlude("interlude3")
+        call checkInterlude("interlude3") from _call_checkInterlude_2
 
-        call checkInterlude("interlude4")
+        call checkInterlude("interlude4") from _call_checkInterlude_3
 
-        call checkInterlude("interlude5")
+        call checkInterlude("interlude5") from _call_checkInterlude_4
 
-        call checkInterlude("goodEnding")
+        call checkInterlude("goodEnding") from _call_checkInterlude_5
 
         return

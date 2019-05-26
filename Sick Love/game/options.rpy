@@ -29,15 +29,15 @@ define config.version = "0.1"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""{b}Roteiro e Programacao:{/b} \'Mestre Leo\' Leonardo Tortoro Pereira e Ricardo Luiz \'Pequi\'
+define gui.about = _p("""{b}Roteiro e Programacao:{/b} Leonardo \'Mestre Leo\' Tortoro Pereira e Ricardo Luiz \'Pequi\'
                       
-                      {b}Design e Arte das Personages:{/b} Gabriel Arantes \'Lombardi\' e Leonardo Maronezi Pizani
+                      {b}Design e Arte das Personages:{/b} Gabriel \'Lombardi\' Arantes e Leonardo Maronezi Pizani
                       
                       {b}Artes de Menu e Interface:{/b} Leonardo Maronezi Pizani
                       
-                      {b}Arte de Cenarios:{/b} William Paulo Dreamer
+                      {b}Arte de Cenarios:{/b} William Paulo \'Dreamer\'
                       
-                      {b}Musicas e Efeitos Sonoros{/b}: Jorge Luiz Batma
+                      {b}Musicas e Efeitos Sonoros{/b}: Jorge Luiz \'Batma\'
                       """)
 
 
