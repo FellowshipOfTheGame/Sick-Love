@@ -14,7 +14,7 @@ t "Por acaso está tendo uma evasão do curso ou o que?"
 
 "Será que mais pessoas não estão curtindo muito a aula?"
 
-"Bem também tem o fato que devido às provas muitas pessoas preferem matar a aula para poder estudar."
+"Bem, também tem o fato que devido às provas muitas pessoas preferem matar a aula para poder estudar."
 
 t "Vocês tem que entender que estudar é importante mas isso não justifica faltar às aulas!"
 

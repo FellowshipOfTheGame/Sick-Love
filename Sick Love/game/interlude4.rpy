@@ -37,7 +37,7 @@ with Fade(0.7,0.2,0.7)
 
 "Que inesperado essa saída dele..."
 
-"Bem, acho que mesmo com suas aulas aleatórias sentirei saudades."
+"Bem, acho que mesmo com suas aulas aleatórias, sentirei saudades."
 
 
 jump part1options

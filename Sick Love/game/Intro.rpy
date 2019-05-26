@@ -31,9 +31,9 @@ t "Eu me lembro que..."
 
 "Consegui ainda passar no dormitório pra deixar minhas malas."
 
-"O quarto não é muito espaçoso, mas não terei ele só pra mim."
+"O quarto não é muito espaçoso, mas terei ele só pra mim."
 
-t "Acho que até hoje os professores devem se perguntar quem fez aquilo, se ainda estiverem vivos HAHAHAHAHA"
+t "Acho que até hoje os professores devem se perguntar quem fez aquilo, se ainda estiverem vivos *risos*"
 
 "{i}*Silêncio...*{/i}"
 
@@ -44,7 +44,7 @@ t "Acho que até hoje os professores devem se perguntar quem fez aquilo, se aind
 "Achei que mais pessoas do meu colégio tivessem prestado pra cá, mas aparentemente eu estava errado."
 
 t"""
-Nunca vou esquecer a cara que ele fez HAHAHA.
+Nunca vou esquecer a cara que ele fez *risos*.
 
 Desculpem as histórias e devaneios, eu sempre fui o piadista do grupo.
 

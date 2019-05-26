@@ -59,7 +59,7 @@ p "Assim espero... Eu não quero perder a estréia, {i}tô{/i} esperando esse fi
 
 show mariana excited at arantesnoghost
 
-m "Mal você sabe que nesse exato momento você está correndo perigo! Eu li os quadrinhos, eu sei como o filme deve acabar. Acho bom vc ficar esperto, caso contrário..."
+m "Mal você sabe que nesse exato momento você está correndo perigo! Eu li os quadrinhos, eu sei como o filme deve acabar. Acho bom você ficar esperto, caso contrário..."
 
 m "MUAHAHA"
 

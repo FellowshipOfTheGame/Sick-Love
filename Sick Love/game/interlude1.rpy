@@ -12,13 +12,13 @@ show professor at arantesnoghost
 
 t "Agora acho que vocês vão acalmar um pouco, não é?"
 
-t "Passando a primeira semana checa a hora em que devemos parar de farrear e começar a estudar de verdade."
+t "Passando a primeira semana chega a hora em que devemos parar de farrear e começar a estudar de verdade."
 
 "Engraçado ele falar isso sendo que até agora ele é o unico que não começou a matéria."
 
 t "Nossa, me recordo de quando entrei na faculdade... Eu bebi tanto que eu não me lembro o que eu fiz, tudo que sei foram meus amigos que me contaram."
 
-t "Nunca bebam assim garotava, beber pode ser legal, mas passar mal nunca é."
+t "Nunca bebam assim garotada, beber pode ser legal, mas passar mal nunca é."
 
 "Olha aí, ao menos ele tem o mínimo senso de responsabilidade social."
 
