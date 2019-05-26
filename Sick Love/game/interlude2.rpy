@@ -10,7 +10,7 @@ scene bg classroom with Fade(0.7,0.2,0.7)
 
 "Mas agora temos prova ou entrega de trabalho quase toda semana."
 
-"Ao invés de ter que virar varias noites em uma semana e ficar louco, vou ficando louco aos poucos."
+"Ao invés de ter que virar várias noites em uma semana e ficar louco, vou ficando louco aos poucos."
 
 show professor at arantesnoghost
 
@@ -22,11 +22,11 @@ t "Mas já tem prova chegando? Vocês parecem estar um pouco nervosos."
 
 "Não sei com o que me preocupar mais, a chance de prova surpresa ou o que pode cair na prova se essa ao menos existir."
 
-"Se o conteudo da prova for o mesmo passado em sala de aula, ela será sobre as crônicas de alguem que chegou até os 70 são."
+"Se o conteúdo da prova for o mesmo passado em sala de aula, ela será sobre as crônicas de alguém que chegou até os 70 são."
 
 "Se bem que essa ultima parte é um pouco questionável."
 
-t "Só de falar em provas já lembro das peripécias que faziamos pra conseguir colar nas provas."
+t "Só de falar em provas já lembro das peripécias que fazíamos pra conseguir colar nas provas."
 
 t "Sim, nós professores não somos bobos, nós sabemos que alunos colam nas provas, lembrem-se que para virar um professor um dia você teve de ser um aluno."
 
