@@ -17,10 +17,13 @@ label part1options:
         "Conversar com a Mariana" if nDatesMariana == 1:
             jump marianaseconddate
 
-        "Conversar com a Mariana" if nDatesMariana == 2:
+        "Marcar um encontro com a Mariana" if nDatesMariana == 2:
             jump marianathirddate
             
         "Ir para o ginásio esportivo" if nDatesRafaela == 0:
             jump rafaelafirstdate
+            
+        "Conversar com a Rafaela" if nDatesRafaela == 1:
+            jump sofiaseconddate
 
     return
