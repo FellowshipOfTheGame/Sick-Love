@@ -124,7 +124,7 @@ d "Poxa mano, mais uma vez ela n deixa você sair? Quando vocês começaram a na
 
 p "Ah mano, é o jeito dela, mas nós vamos nos ajeitando."
 
-"Preciso Mandar mensagem no provado para o Diego."
+"Preciso Mandar mensagem no privado para o Diego."
 
 #trasação e mostrar o celular novamente
 
@@ -152,7 +152,7 @@ p "Não sou nenhum descontrolado que sai ficando com qualquer garota que aparece
 
 p "Eu estou namorando contigo, não vou ficar com nenhuma outra."
 
-g "Eu sei disso mas isso n me impede de ter ciúmes."
+g "Eu sei disso mas isso não me impede de ter ciúmes."
 
 p "Eu entendo, mas aqui a prioridade é ajudar o meu amigo, em outras situações eu já deixei de sair com eles por você, mas esse não é o caso."
 
