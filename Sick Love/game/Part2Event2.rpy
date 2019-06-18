@@ -14,7 +14,7 @@ scene bg classroom
 
 "É o grupo da panelinha, o que será que aqueles dois estão aprontando? Será que é algum meme?"
 
-"Ah, é só mensagem do Pedro."
+"Ah, é só mensagem do Bruno."
 
 b "Galera, eu não estou me sentido muito bem, não está sendo facil lidar com esse semestre pesado."
 
