@@ -1,6 +1,6 @@
 label part2secondevent:
 
-scene bg classroom
+scene bg room
 
 "Finalmente em casa, tudo que eu preciso é de um pouco de descanso."
 
@@ -16,7 +16,7 @@ scene bg classroom
 
 "Ah, é só mensagem do Bruno."
 
-b "Galera, eu não estou me sentido muito bem, não está sendo facil lidar com esse semestre pesado."
+b "Galera, eu não estou me sentido muito bem, não está sendo fácil lidar com esse semestre pesado."
 
 b "E ainda rolaram  mais problemas com a minha família..."
 
