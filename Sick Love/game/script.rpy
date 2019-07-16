@@ -20,6 +20,8 @@ image bg classroom = im.Scale("bgclassroom.png", 1366, 768)
 image bg museum = im.Scale("bgmuseum.png", 1366, 768)
 image bg arcade = im.Scale("bgarcade.png", 1366, 768)
 image bg movies = im.Scale("bgmovies.png", 1366, 768)
+image bg stadium = im.Scale("bgstadium.png", 1366, 768)
+image bg rave = im.Scale("bgrave.png", 1366, 768)
 image black = "#000"
 
 #Declare all sofia images here
