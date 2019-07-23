@@ -8,6 +8,8 @@ define p = Character("[povname]", color = "#e6e6e6", what_color = "#ffffff", wha
 define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
 define b = Character("Bruno", color = "#b33232", what_color = "#cd4c4c",what_prefix='"', what_suffix='"')
 define d = Character("Diego", color = "#5c4724", what_color = "#816432",what_prefix='"', what_suffix='"')
+define r = Character("Rafaela", color = "#b20000", what_color = "#e60000",what_prefix='"', what_suffix='"')
+define u = Character("???", what_prefix='"', what_suffix='"')
 
 
 # Declare all background images here
@@ -18,6 +20,8 @@ image bg classroom = im.Scale("bgclassroom.png", 1366, 768)
 image bg museum = im.Scale("bgmuseum.png", 1366, 768)
 image bg arcade = im.Scale("bgarcade.png", 1366, 768)
 image bg movies = im.Scale("bgmovies.png", 1366, 768)
+image bg stadium = im.Scale("bgstadium.png", 1366, 768)
+image bg rave = im.Scale("bgrave.png", 1366, 768)
 image black = "#000"
 
 #Declare all sofia images here
@@ -55,6 +59,14 @@ image mariana cell = im.Scale("marianacell.png", 390, 670)
 
 image professor = im.Scale("professor.png", 504, 600)
 
+#Declare all rafaela images here
+image rafaela standing = im.Scale("Rafaela.png", 1365, 840)
+image rafaela happy = im.Scale("Rafaela_sorrindo.png", 1365, 840)
+image rafaela sad = im.Scale("Rafaela_triste.png", 1365, 840)
+image rafaela upset = im.Scale("Rafaela_irritada.png", 1365, 840)
+image rafaela evasive = im.Scale("Rafaela_evasiva.png", 1365, 840)
+image rafaela shy = im.Scale("Rafaela_envergonhada.png", 1365, 840)
+image rafaela cell = im.Scale("rafaelacell.png", 390, 670)
 
 
 

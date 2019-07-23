@@ -35,7 +35,7 @@ define gui.about = _p("""{b}Roteiro e Programacao:{/b} Leonardo \'Mestre Leo\' T
                       
                       {b}Artes de Menu e Interface:{/b} Leonardo Maronezi Pizani
                       
-                      {b}Arte de Cenarios:{/b} William Paulo \'Dreamer\'
+                      {b}Arte de Cenarios:{/b} William Paulo \'Dreammer\'
                       
                       {b}Musicas e Efeitos Sonoros{/b}: Jorge Luiz \'Batma\'
                       """)
