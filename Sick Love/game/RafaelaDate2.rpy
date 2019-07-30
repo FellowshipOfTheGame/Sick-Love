@@ -114,16 +114,16 @@ label rafaelaseconddate:
 
     "-{i}No dia do jogo...{/i}-"
     
-    scene bg stadium
+    scene bg subway
     with Fade(0.7,0.2,0.7)
     
     p "Hey, Rafa, cheguei. Valeu pelo convite! Vai ser minha primeira vez vendo um jogo ao vivo."
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
     
     r "{i}Yo{/i}!{i}Suave manolo{/i}, não esquenta não. {i}Tô{/i} feliz que você veio. Muito mais {i}top{/i} assistir jogo junto com alguém. Dá pra ficar discutindo os {i}rolês{/i}."
     
-    show rafaela standing at noghost
+    show rafaela standing2 at noghost
     
     r "Mas, nossa. Como assim você nunca viu um jogo ao vivo? Nenhum? De nada?"
     
@@ -133,7 +133,7 @@ label rafaelaseconddate:
     
     r "Acho que é um bom começo mesmo. Eu gosto de esportes desde pequena..." 
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
     
     r "Sabe, quando eu {i}tô{/i} ali jogando com o pessoal, desafiando meus limites, dando o meu melhor, é quando me sinto mais viva!"
 
@@ -143,7 +143,7 @@ label rafaelaseconddate:
 
     r "E eu fico muito feliz que hoje em dia finalmente os campeonatos femininos {i}tão{/i} ganhando mais visibilidade." 
     
-    show rafaela sad at noghost
+    show rafaela sad2 at noghost
     
     r "Eu adoro assistir jogos, mas eu ficava meio triste quando pequena porque quase todos os campeonatos que passavam na TV eram os masculinos... Às vezes eu pensava que isso não era pra mim..."
     
@@ -153,11 +153,18 @@ label rafaelaseconddate:
 
     r "Sim. Esse tipo de coisa acaba ficando tão enraizado na sociedade que nem mesmo as mulheres percebem a maioria das vezes. Ainda bem que muita gente vem lutando por isso e as coisas vem melhorando..."
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
     
-    r "Mas {i}bora{/i} parar com essas {i}bad vibes{/i}! Eu to muito feliz de estar aqui vendo o jogo com você! E já vai começar! Ai, que emoção!"
+    r "Mas {i}bora{/i} parar com essas {i}bad vibes{/i}! Eu to muito feliz de poder ir ver o jogo com você! E já já vai começar! {i}Bora{/i} pro estádio!"
     
     "Realmente... a Rafa consegue irradiar energia mesmo depois de falar de algo que com certeza incomodava ela... Que garota incrível!"
+    
+    scene bg stadium
+    with Fade(0.7,0.2,0.7)
+    
+    show rafaela happy2 at noghost
+    
+    "Caramba, quanta gente! A galera está bem animada, nem começou o jogo ainda e o pessoal não para de cantar e gritar..."
     
     "Eita, começou. Melhor eu prestar atenção no jogo e não ficar aqui divagando."
     
@@ -170,7 +177,7 @@ label rafaelaseconddate:
     scene bg stadium
     with Fade(0.7,0.2,0.7)
     
-    show rafaela upset at noghost
+    show rafaela upset2 at noghost
     
     r "AAAAAH VAI VIRA ESSE JOGO! VAMO LÁ DESEMPATA! VOCÊS CONSEGUEM! AAAAAAAH"
     
@@ -178,7 +185,7 @@ label rafaelaseconddate:
     
     "É um pouco assustador, mas ela fica fofa mesmo irritada."
     
-    show rafaela standing at noghost
+    show rafaela standing2 at noghost
     
     p "ELAS TÃO COM A BOLA, AGORA VAI! Caramba, falta pouco pra acabar a partida. Elas precisam fazer agora pra virar..."
     
@@ -192,7 +199,7 @@ label rafaelaseconddate:
     
     "E a bola, como um ataque especial totalmente carregado posicionado exatamente no ponto fraco daquele chefe impossível daquele jogo difícil, acerta o alvo em cheio."
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
 
     r "GOOOOOOOOOOL!" (multiple=2)
     
@@ -204,7 +211,7 @@ label rafaelaseconddate:
     
     "Me assusto por um momento. O coração bate mais forte." with Shake((0, 0, 0, 0), 0.3, dist=3)
     
-    show rafaela shy at noghost
+    show rafaela shy2 at noghost
     
     "Ela se afasta um pouco, o rosto envergonhado. Eu me aproximo dela de novo e retribuo o beijo."
     
@@ -216,7 +223,7 @@ label rafaelaseconddate:
 
     "Me pergunto como deveria reagir. Não sei. Preso em meus pensamentos, só sou salvo de meu cativeiro mental pelo apito da juíza. Acabou a partida. Mais comemorações. Olho para o lado..."
 
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
 
     r "AEEEEEEEEEE! GANHAMOS!"
     
@@ -233,11 +240,11 @@ label rafaelaseconddate:
     scene bg stadium
     with Fade(0.7,0.2,0.7)
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
     
     r "Caramba, que jogo {i}mega top{/i}! Emoção até o último segundo! Bora ir saindo, a fila vai ser grande. E aqui {i}tá{/i} difícil de conversar com todo esse barulho."
     
-    show rafaela standing at noghost
+    show rafaela standing2 at noghost
     
     p "Sim. Caramba. Foi bem emocionante!"
     
@@ -251,12 +258,12 @@ label rafaelaseconddate:
 
     "-{i}Na saída...{/i}-"
     
-    scene bg stadium
+    scene bg subway
     with Fade(0.7,0.2,0.7)
     
     p "Ufa. Saímos! Por um momento achei que íamos ficar presos até a próxima partida começar."
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
     
     r "*risos*. Seu exagerado!"
     
@@ -264,21 +271,21 @@ label rafaelaseconddate:
     
     p "Então... Sobre o que rolou no último gol... aahn... foi alguma coisa no calor do momento? É algo que posso levar a sério? Você gosta de mim? Desculpa perguntar assim do nada. Mas eu fui pego um pouco de surpresa..."
     
-    show rafaela shy at noghost
+    show rafaela shy2 at noghost
     
     r "Ah... Aquilo... Bem... Acho que pode dizer que foi um pouco de tudo. O momento ajudou, mas eu te acho um cara legal, simpático e bonito. Então meio que rolou."
     
-    show rafaela evasive at noghost
+    show rafaela evasive2 at noghost
     
     r "Mas... Assim... Não sei como dizer isso de um jeito menos direto, mas eu não quero que você também leve tão à sério o que rolou." 
     
     r "Eu não posso dizer que realmente gosto de você, a gente nem se conhece a tanto tempo... Acho que ainda precisamos de um tempo pra se conhecer melhor..."
     
-    show rafaela shy at noghost
+    show rafaela shy2 at noghost
     
     r "Mas não estou dizendo que não foi bom! Eu gostei e queria continuar isso que tá rolando!"
     
-    show rafaela standing at noghost
+    show rafaela standing2 at noghost
        
     r "Mas só {i}tô{/i} falando que eu queria levar isso com calma e sem compromisso por enquanto. Claro, se você não se importar em sermos só {i}peguetes{/i}, pelo menos por enquanto."
     
@@ -298,7 +305,7 @@ label rafaelaseconddate:
     
     p "Claro! Tudo bem por mim. É meio cedo ainda para assumirmos algo sério, mas eu gostei bastante também do que rolou. E você é uma pessoa linda e alegre e apaixonada pelo que faz. Eu gosto muito da sua companhia. Vamos ver o que rola!"
     
-    show rafaela happy at noghost
+    show rafaela happy2 at noghost
     
     r "{i}Topzera{/i} então! Fico feliz que você tenha entendido e esteja na mesma {i}vibe{/i}... Mas aí, eu preciso ir indo. Valeu por vir. Foi bem {i}daora{/i}. E {i}tô{/i} muito feliz que as {i}minas{/i} ganharam."
     
@@ -306,9 +313,9 @@ label rafaelaseconddate:
     
     "E então nos beijamos de novo..."
         
-    show rafaela shy at noghost
+    show rafaela shy2 at noghost
 
-    p "Até! Foi bem {i}daora{/i} mesmo. {i}Bora{/i} marcar mais {i}rolês{/i}."
+    p "Até! Foi bem {i}daora{/i} mesmo. {i}Bora{/i} marcar mais {i}rolês{/i}. Vou indo que meu trem chegou!"
     
     hide rafaela
     

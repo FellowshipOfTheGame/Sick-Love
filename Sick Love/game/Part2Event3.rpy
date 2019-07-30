@@ -146,17 +146,14 @@ g "Bem... é que seus amigos sempre querem sair pra pegação e bebedeira e eu n
 
 g "Então eu queria saber como você se comportava quando não estava comigo..."
 
-    menu:
-            "Poxa, deixa disso. Bora só curtir a festa. Eu te entendo, mas não precisa se preocupar"
-
-                jump Part2Event3Passive
-
-            "Por que você não acredita no que eu falo?"
-
-                jump Part2Event3Active
+menu:
+    "Poxa, deixa disso. Bora só curtir a festa. Eu te entendo, mas não precisa se preocupar":
+        jump Part2Event3Passive
+    "Por que você não acredita no que eu falo?":
+        jump Part2Event3Active
 
 
-Part2Event3Passive:
+label Part2Event3Passive:
 
 p "Não sei de onde você tira esse seu ciúme, mas acho que esse é o seu jeito mesmo, ao menos você está aqui agora."
 
@@ -208,7 +205,7 @@ b "Assim, ainda é o teu relacionamento. Mas como amigo, gostaria de te deixar a
 
 return
 
-Part2Event3Active:
+label Part2Event3Active:
 
 g "Eu acredito, mas eu queria ver com os meus próprios olhos."
 

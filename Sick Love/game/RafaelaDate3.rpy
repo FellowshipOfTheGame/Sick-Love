@@ -65,7 +65,7 @@ label rafaelathirddate:
     
     p "Hey, Rafa, a música {i}tá{/i} muito boa, né?"
     
-    show rafaela happy at noghost
+    show rafaela happy3 at noghost
     
     r "QUÊ?"
     
@@ -94,7 +94,7 @@ label rafaelathirddate:
     
     "Mas eu ainda estava com meu objetivo original em mente."
     
-    show rafaela happy at noghost
+    show rafaela happy3 at noghost
     
     r "E aí, curtiu bastante? Aliás, um dia esse zumbido vai passar, antes que você fique preocupado."
     
@@ -104,7 +104,7 @@ label rafaelathirddate:
     
     p "Mas eu curti sim. A rave foi muito legal e também foi muito bom poder curtir ela com você. Sempre que eu estou com você, não importa o quão alternativo pra mim seja o {i}rolê{/i}, ele sempre é inesquecível."
     
-    show rafaela shy at noghost
+    show rafaela shy3 at noghost
     
     r "Ai, que fofo. Ele consegue sair da rave intacto e ainda falar essas coisas bonitinhas..." 
     
@@ -130,7 +130,7 @@ label rafaelathirddate:
     
     r "Então... Sim, eu percebi que eu também estou gostando de você e eu ficaria feliz de ter você comigo em todos os {i}rolês{/i}." 
        
-    show rafaela happy at noghost   
+    show rafaela happy3 at noghost   
     
     r "Vou te dar a honra de ser meu namorado."
     

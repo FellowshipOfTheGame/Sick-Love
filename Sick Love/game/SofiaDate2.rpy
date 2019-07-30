@@ -99,18 +99,18 @@ label sofiaseconddate:
     
     "-{i}No fim de semana{/i}-"
     
-    scene bg museum
+    scene bg subway
     with Fade(0.7,0.2,0.7)
     
-    "Ufa, finalmente cheguei no museu. Será que a Sofia já chegou?"
+    "Ufa, finalmente cheguei na estação perto do museu. Será que a Sofia já chegou?"
     
-    show sofia happy at noghost
+    show sofia happy2 at noghost
     
     s "Oi! [povname], {i}tô{/i} aqui!"
     
     p "Opa! Tudo bom? Faz tempo que você chegou? Desculpa se atrasei."
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     s "Eu cheguei agora a pouco, não esquenta."
     
@@ -122,23 +122,23 @@ label sofiaseconddate:
     
     p "Legal! Onde você quer ir primeiro?"
     
-    show sofia evasive at noghost
+    show sofia evasive2 at noghost
     
-    s "Bem, vou deixar os livros pra depois... provavlemente eu vou comprar alguma coisa e não quero ficar carregando sacolas pro resto do dia..."
+    s "Bem, vou deixar os livros pra depois... provavelmente eu vou comprar alguma coisa e não quero ficar carregando sacolas pro resto do dia..."
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     s "Você gosta dos filmes do Tom Barton?"
     
     p "Claro! Eu vi quase todos os filmes dele. Eu amo ele desde que vi \"O Estranho Mundo de Jacó\" quando eu era pequeno."
     
-    show sofia happy at noghost
+    show sofia happy2 at noghost
     
     s "Falaram que tem bastantes coisas dele na parte de filmes. {i}Bora{/i} lá!"
     
     scene black with Fade(0.7,0.2,0.7)
     
-    hide sofia happy
+    hide sofia happy2
     
     "-{i}Na seção de filmes{/i}-"
     
@@ -149,11 +149,11 @@ label sofiaseconddate:
     
     p "Olha lá, tem até alguns modelos das expressões do Jacó Esqueletom no filme!"
     
-    show sofia happy at noghost
+    show sofia happy2 at noghost
     
     s "Sim! E olha ali, tem os bonequinhos de pano daquele filme dele, o 8+1. Eles são muito fofos!"
 
-    show sofia standing at noghost
+    show sofia standing2 at noghost
 
     p "Nossa, finalmente encontrei alguém que assistiu esse filme. Eu achei que só eu tinha visto. Era tão bonito, mas não tinha ninguém pra conversar sobre!"
     
@@ -169,12 +169,12 @@ label sofiaseconddate:
     
     " -{i}Depois de alguns minutos de discussão de filmes, nós fomos para a seção de jogos, a pedido meu.{/i}-"
     
-    scene bg museum
+    scene bg museumsister
     with Fade(0.7,0.2,0.7)
     
     p "Uau, tem até jogos em Realidade Virtual pra jogar! Disseram que o \"Resident Bad\" tá dando um certo medo... Nossa, tem até o \"Four Nights At Franks'\" que nem saiu. Esse deve assustar pra caramba!"
 
-    show sofia standing at noghost
+    show sofia standing2 at noghost
 
     s "Acho que alguém gosta bastante de jogos..."
 
@@ -182,13 +182,13 @@ label sofiaseconddate:
     
     s "Huuum, nunca joguei muito, mas é mais por preferir ler do que não gostar."
     
-    show sofia happy at noghost
+    show sofia happy2 at noghost
     
     s "Não estou te julgando, fica tranquilo."
     
     p "Ufa! Menos mal. Mas acho que você devia tentar jogar alguns jogos mais focados em história. Talvez você goste. Tem alguns muito envolventes."
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     p "Tem alguns de terror inclusive que são baseados nos livros do \"Lovecraft\". Mas nesse caso eu gostei mais dos livros."
     
@@ -205,11 +205,11 @@ label sofiaseconddate:
     scene bg museum
     with Fade(0.7,0.2,0.7)
 
-    show sofia upset at noghost
+    show sofia upset2 at noghost
 
     s "Ok, eu admito que levei alguns sustos..." 
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     s "Foi mais legal do que eu imaginava. Alguns deles pareciam ter uma história bem legal."
     
@@ -227,7 +227,7 @@ label sofiaseconddate:
     
     p "Acho que já. Acabei gostando tanto que li bem mais rápido do que costumo ler. Obrigado, de novo, pelas recomendações. Tive muita sorte de te conhecer aquele dia na biblioteca."
 
-    show sofia shy at noghost
+    show sofia shy2 at noghost
 
     s "Poxa, obrigada. Mas nem foi tanta coisa assim... Só umas recomendações de livros que eu gosto."
     
@@ -239,21 +239,21 @@ label sofiaseconddate:
     
     "Poxa, ela fica muito fofa sem graça assim... Mas eu não sei muito o que dizer agora... Não sou muito bom nessas situações... Mas ela é uma garota realmente interessante. Será que eu tenho alguma chance com ela?"
     
-    show sofia happy at noghost
+    show sofia happy2 at noghost
     
     s "Epa! Esse livro é o novo de um autor que eu gosto bastante. Até esqueci que já tinha lançado. Acho que eu vou levar."
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     p "Huuum... acho que vou levar também. Suas recomendações não me decepcionaram até hoje. E, além disso, vamos poder discutir o livro conforme formos lendo."
 
-    show sofia happy at noghost
+    show sofia happy2 at noghost
 
     s "Gostei da ideia! Sempre fico com vontade de discutir o que eu estou lendo com os outros, mas é difícil arrumar companhia."
     
     s "Vamos dar uma olhada nos outros livros também. Aproveito e te recomendo mais alguns se você quiser."
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     p "Claro! Vamos lá."
     
@@ -263,22 +263,25 @@ label sofiaseconddate:
     
     " -{i}Depois de uma busca incessante por livros e a compra de livros que possivelmente ficarão na estante antes de serem lidos por mais tempo do que você gostaria de admitir, termina o evento.{/i}-"
     
-    scene bg museum
+    scene bg museumsister
     with Fade(0.7,0.2,0.7)
     
     p "Bem, hora de ir. Obrigado por ter saído comigo. Me diverti bastante hoje!"
     
-    show sofia shy at noghost
+    show sofia shy2 at noghost
     
     s "Eu que agradeço por ter me convidado e aceitado vir aqui. Me diverti bastante também."
     
-    show sofia standing at noghost
+    show sofia standing2 at noghost
     
     p "Que bom que gostou. Aliás, eu preciso te apresentar uns jogos de terror pra ver se você gosta de algum. Um dia desses te chamo para jogar lá em casa."
     
     s "Tudo bem. Vou dar uma outra chance para os jogos. Preciso ver depois aqueles que você comentou. Bem, vou indo nessa. A gente vai conversando sobre o livro, beleza? Tchau!"
     
     p "Tchau! Até a próxima!"
+    
+    scene bg subway
+    with Fade(0.7,0.2,0.7)
     
     "Ok. Esse foi um fim de semana divertido. Preciso chamar a Sofia para sair mais vezes, ela é uma pessoa muito legal."
     

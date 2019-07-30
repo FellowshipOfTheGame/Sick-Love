@@ -14,7 +14,7 @@ label rafaelafirstdate:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene black with Fade(0.7,0.2,0.7)
+    scene bg campus with Fade(0.7,0.2,0.7)
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -34,7 +34,7 @@ label rafaelafirstdate:
     
     "...Ok, foi fácil achar o ginásio. Talvez por ele ficar exatamente no centro da universidade e ter uma quadra gigante chamativa o suficiente pra se ver de longe. Mas ainda assim estou surpreso."
     
-    if nDatesSofia > 0 or nDatesMariana > 0:
+    if nDatesSofia > 0:
         "Achei que eu ia ficar perdido lendo placas e andando em círculos de novo..."
     
     "Mas, caramba! Isso é bem maior do que eu pensava! Achei que ia ter uma miniquadra de {i}handball{/i}, outra de vôlei de praia e no máximo uma piscina nem semi-olímpica... Mas {i}UAU{/i}!"

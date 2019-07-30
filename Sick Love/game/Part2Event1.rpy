@@ -84,17 +84,15 @@ p "Mas aí perderia parte do propósito: eu precisava me focar, não podia ter d
 
 g "Agora eu sou só uma distração pra ti? Poxa, você é tão importante pra mim e eu me preocupo tanto e é assim que você me trata?"
 
-    menu:
-        "Espera, não foi isso que eu quis dizer":
+menu:
+    "Espera, não foi isso que eu quis dizer":
+        jump Part2Event1Active
 
-            jump Part2Event1Active
-
-        "Desculpa":
-
-            jump Part2Event1Passive
+    "Desculpa":
+        jump Part2Event1Passive
 
 
-Part2Event1Passive:
+label Part2Event1Passive:
 
 p "Desculpa, não foi isso que eu quis dizer."
 
@@ -114,7 +112,7 @@ p "Claro."
 
 return
 
-Part2Event1Active:
+label Part2Event1Active:
 
 p "Você entendeu o que eu quis dizer, não precisa ficar distorcendo."
 

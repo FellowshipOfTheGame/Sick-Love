@@ -90,17 +90,15 @@ p "Por quê?"
 
 g "Bem, eu não posso ir com você, e aqueles dois são muito festeiros. Provavelmente vão ter um monte de garotas lá com vocês e eu não gosto disso."
 
-    menu:
-        "Ficar com [garota]."
+menu:
+    "Ficar com [garota].":
+        jump Part2Event2Passive
 
-            jump Part2Event2Passive
-
-        "Sair com amigos."
-
-            jump Part2Event2Active
+    "Sair com amigos.":
+        jump Part2Event2Active
 
 
-Part2Event2Passive:
+label Part2Event2Passive:
 
 p "Calma, não é pra tanto, eu só quero dar apoio pro Bruno."
 
@@ -142,7 +140,7 @@ d "Bem... se você está dizendo..."
 
 return
 
-Part2Event2Active:
+label Part2Event2Active:
 
 p "Espera, é sério? Primeiro, nós não vamos lá pra ficar \"festando\", vamos só conversar."
 
