@@ -6,18 +6,18 @@ scene bg room
 
 "Nossa, mesmo depois de dormir ainda estou cansado, ontem foi um dia longo."
 
-"Acabei pegando uma matéria optativa que tá dando muitos trabalhos."
+"Acabei pegando uma matéria optativa que {i}tá{/i} dando muitos trabalhos."
 
 "Ao menos consegui terminar, agora é só imprimir e já era."
 
-"Não checo meu celular desde ontem a tarde, eu realmente precisava me focar. O que será que rolou, deve ter algumas centenas de mensagens acumulada."
+"Não checo meu celular desde ontem à tarde. Eu realmente precisava me focar... O que será que rolou? Deve ter algumas centenas de mensagens acumuladas."
 
 #pegar celular
 #TODO celular fora do chat(layout basico de uma tela inicial)
 
-"Olha ai, dito e feito."
+"Olha aí, dito e feito."
 
-"A não, a [garota] mandou mensagens. Isso é um mal sinal, ela se irrita muito quando eu demoro a responder."
+"Ah não, a [garota] mandou mensagens. Isso é um mal sinal, ela se irrita muito quando eu demoro a responder."
 
 "Esses dias ela tem estado muito em cima de mim."
 
@@ -50,27 +50,27 @@ g "Nossa [povname], que merda! Para de me ignorar!"
 
 "Finalmente acabaram as aulas, esse dia foi longo, ao menos agora posso voltar pro meu quarto e descansar."
 
-"Pera, aquela ali não é a [garota]?"
+"Pera. Aquela ali não é a [garota]?"
 
 #mostrar garota
 
 p "Oi [garota], tudo bem, eu queria falar contigo."
 
-g "Tudo bem, podemos ir pro teu quarto?"
+g "Tudo bem. Podemos ir pro teu quarto?"
 
-p "Ok, pode ser."
+p "Ok. Pode ser."
 
 scene bg room
 
 #show garota
 
-g "O que aconteceu ontem? voce me ignorou a noite toda."
+g "O que aconteceu ontem? você me ignorou a noite toda."
 
 p "Então, eu tinha que fazer um trabalho, passei a noite toda ocupado com isso."
 
 g "Mas poxa, você não poderia responder? Eu me preocupo contigo, por isso queria saber onde você estava e se você estava bem, só isso."
 
-g "Tem vezes que você só some e isso me tira do sério, sem falar que uma das vezes que isso aconteceu você tinha saido com seus amigos, e eu não sei quem foi com vocês."
+g "Tem vezes que você só some e isso me tira do sério. Sem falar que uma das vezes que isso aconteceu você tinha saído com seus amigos, e eu não sei quem foi com vocês."
 
 g "Nós estamos namorando, não quero que você saia andando com outras meninas. Entende o meu lado, eu fico sozinha esperando sua resposta sendo que você poderia estar na farra."
 
@@ -78,9 +78,9 @@ p "Calma, primeiro: eu só fiquei sem te responder porque eu não estava usando 
 
 p "Era isso ou eu não conseguiria terminar o trabalho a tempo."
 
-g "Mas poxa, o que custa me responder, você pode silenciar os outros e ver só as minhas mensagens."
+g "Mas poxa, o que custa me responder? Você pode silenciar os outros e ver só as minhas mensagens."
 
-p "Mas aí perderia parte do propósito, eu precisava me focar, não podia ter distrações."
+p "Mas aí perderia parte do propósito: eu precisava me focar, não podia ter distrações."
 
 g "Agora eu sou só uma distração pra ti? Poxa, você é tão importante pra mim e eu me preocupo tanto e é assim que você me trata?"
 
@@ -98,7 +98,7 @@ Part2Event1Passive:
 
 p "Desculpa, não foi isso que eu quis dizer."
 
-p "Eu prometo que vou tentar olhar mais o celular e ser mais atendo, desculpa."
+p "Eu prometo que vou tentar olhar mais o celular e ser mais atento. Desculpa."
 
 g "Tudo bem, obrigado por se importar, eu me preocupo com você."
 
@@ -118,19 +118,19 @@ Part2Event1Active:
 
 p "Você entendeu o que eu quis dizer, não precisa ficar distorcendo."
 
-p "Olha, eu entendo que você está irritada, mas eu as vezes vou acabar ficando na minha, eu não estarei com outra, eu nunca te trai ou algo do tipo."
+p "Olha, eu entendo que você está irritada, mas eu às vezes vou acabar ficando na minha. Eu não estarei com outra. Eu nunca te trai ou algo do tipo."
 
-p "Acho que por agora você deve refletir um pouco consigo, não acho que essa possessividade vá fazer bem pra nenhum nós dois."
+p "Acho que por agora você deve refletir um pouco consigo. Não acho que essa possessividade vá fazer bem pra nenhum nós dois."
 
 g "Bem... se for pra ser assim, acho que já vou indo então..."
 
-p "Olha, eu gosto de você, eu quero que esse relacionamento dê certo, então por favor repense isso."
+p "Olha, eu gosto de você. Eu quero que esse relacionamento dê certo, então por favor repense isso."
 
 p "Depois nós nos falamos."
 
 #transição pro quarto/pequeno time skip
 
-"Nossa... Espero que termine tudo bem entre nós dois, eu ainda gosto dela, mas ela ficando assim em cima de mim não acho que vá dar certo."
+"Nossa... Espero que termine tudo bem entre nós dois. Eu ainda gosto dela, mas ela ficando assim em cima de mim não acho que vá dar certo."
 
 "Depois chamo ela pra fazer algo no fim de semana, acho que ela deve passar a me entender melhor."
 
