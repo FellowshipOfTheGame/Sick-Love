@@ -84,7 +84,7 @@ label sofiathirddate:
 
     p "Caramba, eu fiquei tão ansioso que acabei chegando um pouco antes. Pelo menos já comprei os ingressos..."
 
-    show sofia standing at noghost
+    show sofia standing3 at noghost
 
     s "Oi, [povname], cheguei!"
 
@@ -94,13 +94,13 @@ label sofiathirddate:
 
     p "Não, tá tranquilo. Eu aproveitei e já comprei os ingressos."
 
-    show sofia happy at noghost
+    show sofia happy3 at noghost
 
     s "Poxa, valeu! Então eu compro a pipoca pra gente dividir."
 
     p "Beleza. {i}Bora{/i} lá!"
 
-    show sofia standing at noghost
+    show sofia standing3 at noghost
 
     scene black with Fade(0.7,0.2,0.7)
 
@@ -140,7 +140,7 @@ label sofiathirddate:
 
     p "E-então, gostou do filme?"
 
-    show sofia happy at noghost
+    show sofia happy3 at noghost
 
     s "Sim! A história ficou legal, mas eu levei uns sustos em algumas partes..."
 
@@ -148,13 +148,13 @@ label sofiathirddate:
 
     "Aceno com a cabeça para nossas mãos, tentando dizer que senti ela apertando minha mão e quase pulando da cadeira."
 
-    show sofia shy at noghost
+    show sofia shy3 at noghost
 
     s "Ah... É... Verdade..."
 
     p "Então. Ahn... Tentando clarificar as coisas... Sofia, você quer namorar comigo? Ou ficar antes e namorar depois. Não sei direito o que os jovens fazem hoje em dia..."
 
-    show sofia happy at noghost
+    show sofia happy3 at noghost
 
     s "Sim! Não importa qual dos dois."
 

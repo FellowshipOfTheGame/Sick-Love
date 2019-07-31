@@ -167,7 +167,7 @@ with Fade(0.7,1.0,0.7)
 
 m "[povname] ? Oi!"
 
-show mariana standing at arantesnoghost
+show mariana standing2 at arantesnoghost
 
 p "E aí? Tranquilo? Quer jogar o que primeiro?"
 
@@ -179,7 +179,7 @@ m "Então {i}bora{/i}."
 
 scene bg arcade
 with Fade(0.2,1.0,0.7)
-show mariana standing at arantesnoghost
+show mariana standing2 at arantesnoghost
 
 m "Nossa, que jogo legal! Não sei o que é, mas jogar na máquina quase faz o jogo ficar mais divertido."
 
@@ -189,7 +189,7 @@ m "É incrível como eles conseguiam fazer jogos tão diferentes com uma tecnolo
 
 p "Espera um pouco, meus ouvidos me enganam ou eu ouço Betris?"
 
-show mariana happy at arantesnoghost
+show mariana happy2 at arantesnoghost
 
 m "Definitivamente *risos*, quer jogar?"
 
@@ -197,7 +197,7 @@ p "Claro!"
 
 scene bg arcade
 with Fade(0.2,1.0,0.7)
-show mariana standing at arantesnoghost
+show mariana standing2 at arantesnoghost
 
 m "Aqui também tem outros jogos mais comuns. Quer tentar ir no jogo de arremesso à cesta?"
 
@@ -205,7 +205,7 @@ p "Vamos, mas já deixo avisado que você que chamou."
 
 scene bg arcade
 with Fade(0.2,1.0,0.7)
-show mariana sad at arantesnoghost
+show mariana sad2 at arantesnoghost
 
 m "Como você consegue fazer tantos pontos?"
 
@@ -213,14 +213,14 @@ p "Bem, talvez eu tenha um jeito pra coisa, quem sabe?"
 
 p "Quer jogar outra coisa? Podemos jogar {i}Street Kombat{/i}, mas já deixo avisado que eu não vou pegar leve."
 
-show mariana standing at arantesnoghost
+show mariana standing2 at arantesnoghost
 
 m "Opa, desculpa aí, vamos ver se você joga do mesmo tanto que você fala."
 
 scene bg arcade
 with Fade(0.2,1.0,0.7)
 
-show mariana excited at arantesnoghost
+show mariana excited2 at arantesnoghost
 
 #sfx de controle
 m "E.... Pronto!"
@@ -231,13 +231,13 @@ m "Com isso ficamos como? 8x0? Eu perdi a conta."
 
 p "Mas... Como você é tão boa?"
 
-show mariana happy at arantesnoghost
+show mariana happy2 at arantesnoghost
 
 m "Bem, talvez eu tenha um jeito pra coisa, quem sabe? *risos*."
 
 "Caramba, eu nunca vi alguém jogar assim. Só sei que não foi algum {i}hack{/i} porque ela está do meu lado."
 
-show mariana standing at arantesnoghost
+show mariana standing2 at arantesnoghost
 
 m "Pra ser sincera eu participava de campeonatos, até ganhei alguns menores."
 
@@ -247,7 +247,7 @@ m "Não precisa ficar boquiaberto, meninas também podem jogar em nível competi
 
 p "Eu sei, mas eu nunca tinha me encontrado pessoalmente com um jogador profissional. Me dá um autógrafo?"
 
-show mariana happy at arantesnoghost
+show mariana happy2 at arantesnoghost
 
 m "*risos* Deixa de se fazer de bobo, eu não dou autógrafo pra perdedor."
 
@@ -255,7 +255,7 @@ p "Então é assim? Beleza, vamos então fazer uma revanche, tudo ou nada!"
 
 scene bg arcade
 with Fade(0.2,1.0,0.7)
-show mariana excited at arantesnoghost
+show mariana excited2 at arantesnoghost
 
 m "Não sei se me sinto boba por não ter apostado dinheiro ou se me sinto mal por ficar pisando em você."
 
@@ -263,7 +263,7 @@ p "Ok... Eu aceito minha derrota."
 
 "Se eu não tinha me feito de idiota antes agora eu consegui fazer isso com toda a classe e maestria de um bobo da corte."
 
-show mariana standing at arantesnoghost
+show mariana standing2 at arantesnoghost
 
 m "Não precisa ficar com essa cara, você joga bem, só não é nível competitivo. Eu só estava zoando com a sua cara."
 
@@ -271,7 +271,10 @@ m "Na verdade talvez já seja a hora de voltarmos pra casa, já estão fechando 
 
 p "Mas já?!? Nossa, nem vi o tempo passar."
 
-m "Eu também não."
+m "Eu também não. Vamos andando, então. Preciso pegar o metrô."
+
+scene bg subway
+with Fade(0.7,1.0,0.7)
 
 m "Pra falar a verdade eu estava com muito sono quando te mandei a mensagem e eu estava morrendo de vergonha."
 
@@ -279,9 +282,9 @@ m "Mas que bom que você aceitou, hoje foi um dia muito legal, espero podermos s
 
 p "Eu também me diverti muito, vamos procurar mais coisas pra fazer. Vamos desbravar essa cidade!"
 
-show mariana happy at arantesnoghost
+show mariana happy2 at arantesnoghost
 
-m "{i}Wow{/i}, calma ai bandeirante. Vai com calma *risos*. Mas, bem, já vou indo. Tchau tchau."
+m "{i}Wow{/i}, calma ai bandeirante. Vai com calma *risos*. Mas, bem, já vou indo. Meu trem chegou. Tchau tchau."
 
 scene bg room
 with Fade(0.7,1.0,0.7)

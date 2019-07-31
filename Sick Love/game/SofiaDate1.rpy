@@ -14,7 +14,7 @@ label sofiafirstdate:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg library
+    scene bg campus
     with Fade(0.7,0.2,0.7)
 
     # This shows a character sprite. A placeholder is used, but you can
@@ -29,13 +29,26 @@ label sofiafirstdate:
     
     "Falaram que era só atravessar a praça, subir umas escadas, seguir reto e procurar um prédio à direita cheio de janelas para chegar na biblioteca."
     
+    scene black with Fade(0.7,0.2,0.7)
+
+    "-{i}Depois de andar muito...{/i}-"
+    
+    scene bg campus
+    with Fade(0.7,0.2,0.7)
+    
     "Huuum... acho que é aquele prédio ali. Uau! Que prédio grande! Deve ser umas 5 vezes maior que a biblioteca da minha escola."
     
     "Caramba, qual o problema do pessoal dessa universidade que não coloca placas com direções e nem com o nome dos prédios em um lugar visível?"
     
     "Quando me falaram que a universidade era um lugar que amadurece as pessoas eu não imaginei que parte do amadurecimento era aprender a adivinhar onde ficam coisas má sinalizadas..."
     
+    if nDatesRafaela > 0:
+        "E eu achando que ia ser fácil que nem achar o ginásio..."
+    
     "É aqui mesmo. Ufa! Beleza, agora é sair procurando o que tem em cada seção..."
+    
+    scene bg library
+    with Fade(0.7,0.2,0.7)
     
     "Caramba! Quanto livro de cálculo. Deve ter livro aqui de uns 100 anos... Tenho dó de quem tem rinite."
     

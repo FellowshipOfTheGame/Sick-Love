@@ -26,4 +26,6 @@ label part1options:
         "Conversar com a Rafaela" if nDatesRafaela == 1:
             jump rafaelaseconddate
 
+        "Marcar um encontro com a Rafaela" if nDatesRafaela == 2:
+            jump rafaelathirddate
     return
