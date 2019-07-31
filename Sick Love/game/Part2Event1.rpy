@@ -17,7 +17,7 @@ scene bg room
 
 "Olha aí, dito e feito."
 
-"Ah não, a [garota] mandou mensagens. Isso é um mal sinal, ela se irrita muito quando eu demoro a responder."
+"Ah não, a [g.name] mandou mensagens. Isso é um mal sinal, ela se irrita muito quando eu demoro a responder."
 
 "Esses dias ela tem estado muito em cima de mim."
 
@@ -25,6 +25,8 @@ scene bg room
 
 # abrir chat com garota
 #g seria a garota, n sei como definiremos ela futuramente
+
+show girlfriend cell at celltransform
 
 g "Onde você está?"
 
@@ -50,11 +52,11 @@ g "Nossa [povname], que merda! Para de me ignorar!"
 
 "Finalmente acabaram as aulas, esse dia foi longo, ao menos agora posso voltar pro meu quarto e descansar."
 
-"Pera. Aquela ali não é a [garota]?"
+"Pera. Aquela ali não é a [g.name]?"
 
 #mostrar garota
 
-p "Oi [garota], tudo bem, eu queria falar contigo."
+p "Oi [g.name], tudo bem, eu queria falar contigo."
 
 g "Tudo bem. Podemos ir pro teu quarto?"
 
@@ -63,6 +65,8 @@ p "Ok. Pode ser."
 scene bg room
 
 #show garota
+
+show girlfriend angry at girltransform
 
 g "O que aconteceu ontem? você me ignorou a noite toda."
 

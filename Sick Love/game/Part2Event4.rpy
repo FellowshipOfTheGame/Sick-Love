@@ -68,17 +68,17 @@ p "Eu não sei se um dia vai ser o suficiente..."
 
 g "Vamos, por favor... Eu queria poder me despedir de você melhor, já que não vamos nos ver direito nessa ultima semana..."
 
-    menu:
-        "Tudo bem, acho que talvez eu consiga revisar toda a materia em um dia"
+menu:
+    "Tudo bem, acho que talvez eu consiga revisar toda a materia em um dia":
 
-            jump Part2Event4Passive
+        jump Part2Event4Passive
 
-        "Eu queria sair, mas tenho que estudar, desculpa"
+    "Eu queria sair, mas tenho que estudar, desculpa":
 
-            jump Part2Event4Active
+        jump Part2Event4Active
 
 
-Part2Event4Active:
+label Part2Event4Active:
 
 p "Desculpa, mas eu realmente preciso estudar, podemos ver se conseguimos sair pra tomar um sorvete antes da viagem ou algo do tipo."
 
@@ -108,7 +108,7 @@ g "Então tá bom. Bons estudos, vou seguir minha vida aqui também."
 
 return
 
-Part2Event4Passive:
+label Part2Event4Passive:
 
 p "Bem, acho que podemos fazer isso funcionar..."
 
@@ -150,7 +150,7 @@ p "É... Vou ter que ver com o professor, mas as chances de fazer uma prova de r
 
 d "O que rolou cara? Normalmente suas notas são boas, não conseguiu estudar?"
 
-p "Então, acabou que eu tive de sair com a [garota], então me sobrou pouco tempo pra estudar, tentei passar por tudo correndo, mas acho que isso só me fez confundir os conceitos."
+p "Então, acabou que eu tive de sair com a [g.name], então me sobrou pouco tempo pra estudar, tentei passar por tudo correndo, mas acho que isso só me fez confundir os conceitos."
 
 b "Poxa cara, fim de semestre você deveria estar focado nos estudos..."
 

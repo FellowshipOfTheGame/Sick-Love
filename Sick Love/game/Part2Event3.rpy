@@ -6,7 +6,7 @@ scene bg room
 
 "Quem diria que o {i}inter{/i} iria chegar tão rápido. Todo mundo vai nas festas, até quem nunca costuma sair."
 
-"Pena que a [garota] não vai poder ir... Queria poder curtir com ela, mas aparentemente ela vai ter que ir visitar uns parentes."
+"Pena que a [g.name] não vai poder ir... Queria poder curtir com ela, mas aparentemente ela vai ter que ir visitar uns parentes."
 
 "Eu até me ofereci a ir com ela, mas ela disse que eu poderia curtir com meus amigos. Acho que ela tem tentado ser menos possessiva."
 
@@ -68,15 +68,15 @@ p "Então fechou. Nos vemos lá."
 
 d "[povname], finalmente. O que rolou?"
 
-b "Que hora pra atrasar... A [garota] vai demorar muito?"
+b "Que hora pra atrasar... A [g.name] vai demorar muito?"
 
-p "A [garota] teve que ir visitar uns paretes. Ela não vai no inter conosco."
+p "A [g.name] teve que ir visitar uns paretes. Ela não vai no inter conosco."
 
 d "Que pena... Bem ao menos teremos só nós três."
 
 b "Né? Rolê dos {i}brothers{/i}."
 
-p "Poxa, galera, vocês não curtem quando a [garota] vem comigo?"
+p "Poxa, galera, vocês não curtem quando a [g.name] vem comigo?"
 
 b "Cara... Não é nem questão de não curtir. Ela fica muito em cima de você. Você parece estar sempre pisando em ovos."
 
@@ -110,7 +110,7 @@ b "É. Se ele beber mais vamos ter que levar pro ambulatório que fizeram na ent
 
 p "Acho que ninguém quer isso. Certo, Diego?"
 
-d "Aquela não é a [garota] olhando pra cá?"
+d "Aquela não é a [g.name] olhando pra cá?"
 
 p "O que você tá falando cara? Já disse que ela nem tá na cidade. Bruno, por que ele tá repetindo tanto essa?"
 
@@ -118,7 +118,7 @@ b "{i}Pera{/i}, acho que ele {i}tá{/i} certo."
 
 "Quando eu virei não tinha ninguém olhando pra cá... Mas aquela pessoa de costas parece mesmo a ..."
 
-p "[garota]?!?"
+p "[g.name]?!?"
 
 g "Ah, oi! Finalmente te achei, passei a festa inteira te procurando!"
 
@@ -183,7 +183,7 @@ b "O Diego ainda deve demorar pra levantar."
 
 p "Esse cara não aprende kkkkkk"
 
-b "Mas, [povname] e essa história com a [garota]?"
+b "Mas, [povname] e essa história com a [g.name]?"
 
 p "Que história?"
 

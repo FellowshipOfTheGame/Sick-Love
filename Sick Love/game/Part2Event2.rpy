@@ -38,11 +38,11 @@ b "Até."
 
 "Mas e se for..."
 
-"Sábado eu iria sair com a [garota], mas acho que esse caso é mais emergencial."
+"Sábado eu iria sair com a [g.name], mas acho que esse caso é mais emergencial."
 
 #mostrar celular falando com a garota
 
-p "Oi [garota], então, apareceu um imprevisto e não vai rolar de sair contigo esse sábado. :/"
+p "Oi [g.name], então, apareceu um imprevisto e não vai rolar de sair contigo esse sábado. :/"
 
 g "Ué, o que aconteceu?"
 
@@ -91,7 +91,7 @@ p "Por quê?"
 g "Bem, eu não posso ir com você, e aqueles dois são muito festeiros. Provavelmente vão ter um monte de garotas lá com vocês e eu não gosto disso."
 
 menu:
-    "Ficar com [garota].":
+    "Ficar com [g.name].":
         jump Part2Event2Passive
 
     "Sair com amigos.":
@@ -116,7 +116,7 @@ p "Galera, não vou poder ir sábado."
 
 b "Poxa, o que rolou?"
 
-p "A [garota] ficou bolada porque eu iria sem ela, então vou passar esse fim de semana com ela."
+p "A [g.name] ficou bolada porque eu iria sem ela, então vou passar esse fim de semana com ela."
 
 d "Poxa mano, mais uma vez ela {i}n{\i} deixa você sair? Quando vocês começaram a namorar ela era mais tranquila com isso."
 
@@ -130,7 +130,7 @@ p "E aí cara, tudo bem?"
 
 p "Então, já que eu não vou sábado, me avisa se rolar alguma coisa ou se o Bruno estiver com algum problema maior, por favor."
 
-d "Tranquilo, {i}mano{/i}. Mas, assim, acho que você tem que tomar cuidado com a [garota]. Ela está muito em cima de você."
+d "Tranquilo, {i}mano{/i}. Mas, assim, acho que você tem que tomar cuidado com a [g.name]. Ela está muito em cima de você."
 
 d "Você tem certeza que está tudo bem entre vocês dois? Ela parece estar sendo muito controladora."
 

@@ -20,7 +20,7 @@ g "Eu ultra apoio, podemos aproveitar pra nos despedir de verdade antes das fér
 
 "Bem agora é esperar, ainda bem que consegui adiar a passagem, aconteceu um imprevisto na minha cidade e meus pais nem estariam em casa pra me buscar de qualquer forma."
 
-"Ao menos com isso sobrou um ultimo dia pra sair com a [garota]."
+"Ao menos com isso sobrou um ultimo dia pra sair com a [g.name]."
 
 "Eu quero aproveitar esse dia com ela, mas não posso mais ignorar tudo que nós vivemos nesses meses de namoro."
 
@@ -84,17 +84,17 @@ g "Você tem que entender que eu faço essas coisas porque eu gosto de você."
 
 p "Esse é a questão, eu entendo que você faz isso por gostar de mim e eu não acho certo."
 
-    menu:
+menu:
 
-        "Pedir pra dar um tempo"
+    "Pedir pra dar um tempo":
 
-            jump Part2Event5Passive
+        jump Part2Event5Passive
 
-        "Terminar o namoro"
+    "Terminar o namoro":
 
-            jump Part2Event5Active
+        jump Part2Event5Active
 
-Part2Event5Active:
+label Part2Event5Active:
 
 p "Eu realmente tentei aceitar a forma com que você lida com o relacionamento, tentei pensar que só era uma prova de amor distorcida por uma percepção deturpada."
 
@@ -138,7 +138,7 @@ scene bg room
 
 return
 
-Part2Event5Passive:
+label Part2Event5Passive:
 
 p "Acho que podemos usar essas férias pra pensar melhor em como estamos lidando com tudo isso, sabe?"
 
