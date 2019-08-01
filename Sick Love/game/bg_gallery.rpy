@@ -1,19 +1,5 @@
 #BG Gallery
 
-#init-1:
-#    image bg sc01 = "01.png"
-#    image bg sc02 = "bf27888.jpg"
-#    image bg sc03 = "c099f80.jpg"
-#    image bg sc04 = "f7d7b0e.jpg"
-#    image bg sc05 = "105320c.jpg"
-#    image bg sc06 = "cf24501.jpg"
-#    image bg sc07 = "538adc8.jpg"
-#    image bg sc08 = "1c56479.jpg"
-#    image bg sc09 = "ae34943.jpg"
-#    image bg sc10 = "20420d5.jpg"
-#    image bg sc11 = "9796f4a78d.jpg"
-#    image bg sc12 = "2fXx6.jpg"
-
 init python:
     #Galleries settings - start
     #list the CG gallery images here:

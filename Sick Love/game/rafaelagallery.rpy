@@ -32,8 +32,9 @@ init +1 python:
 screen rafaela_gallery():
     tag menu
     use game_menu(_("Galeria da rafaela"), scroll="viewport"):
-        hbox:
+        vbox:
             grid gal_cols gal_rows:
+                xpos 80
                 spacing 35
                 $ i = 0
                 $ next_rafaela_page = rafaela_page + 1
@@ -48,13 +49,14 @@ screen rafaela_gallery():
                         add g_rafaela.make_button(gal_item + " butt", gal_item + " butt", im.Scale("gui/gallocked.png", thumbnail_x, thumbnail_y), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=0)
                 for j in range(i, (rafaela_page+1)*gal_cells): #we need this to fully fill the grid
                     null
-            frame:
-                xpos -150
-                ypos 555
-                if len(gallery_rafaela_items)>gal_cells:
-                    textbutton _("Próximo") action [SetVariable('rafaela_page', next_rafaela_page), ShowMenu("rafaela_gallery")]
-            frame:
-                xpos -750
-                ypos 555
+            
+            null height 50
+            
+            hbox:
+                spacing 200
                 if len(gallery_rafaela_items)>gal_cells:
                     textbutton _("Anterior") action [SetVariable('rafaela_page', previous_rafaela_page), ShowMenu("rafaela_gallery")]
+                textbutton _("Voltar") action ShowMenu("cg_gallery")
+                if len(gallery_rafaela_items)>gal_cells:
+                    textbutton _("Próxima") action [SetVariable('rafaela_page', next_rafaela_page), ShowMenu("rafaela_gallery")]
+            

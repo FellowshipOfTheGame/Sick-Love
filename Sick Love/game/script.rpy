@@ -2,15 +2,19 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define t = Character("Professor", color = "#751aff", what_color = "#944dff",what_prefix='"', what_suffix='"')
-define s = Character("Sofia", color = "#0083b3", what_color = "#00a8e6",what_prefix='"', what_suffix='"')
-define p = Character("[povname]", color = "#e6e6e6", what_color = "#ffffff", what_prefix='"', what_suffix='"')
-define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
-define b = Character("Bruno", color = "#b33232", what_color = "#cd4c4c",what_prefix='"', what_suffix='"')
-define d = Character("Diego", color = "#5c4724", what_color = "#816432",what_prefix='"', what_suffix='"')
-define r = Character("Rafaela", color = "#b20000", what_color = "#e60000",what_prefix='"', what_suffix='"')
-define u = Character("???", what_prefix='"', what_suffix='"')
+define t = Character("Professor", color = "#751aff", what_color = "#944dff",what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define s = Character("Sofia", color = "#0083b3", what_color = "#00a8e6",what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define p = Character("[povname]", color = "#e6e6e6", what_color = "#ffffff", what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define b = Character("Bruno", color = "#b33232", what_color = "#cd4c4c",what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define d = Character("Diego", color = "#5c4724", what_color = "#816432",what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define r = Character("Rafaela", color = "#b20000", what_color = "#e60000",what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
+define u = Character("???", what_prefix='"', what_suffix='"', who_outlines=[(1, "#333333")], what_outlines=[(1, "#333333")])
 
+define gui.dialogue_text_outlines = [ (1, "#333333") ]
+define gui.name_text_outlines = [ (1, "#333333") ]
+
+#initializes with -1 so it can be loaded into the gallery
 init -1:
     # Declare all background images here
     image bg room = im.Scale("bgroom.png", 1366, 768)

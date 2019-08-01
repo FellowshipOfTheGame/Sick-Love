@@ -32,8 +32,9 @@ init +1 python:
 screen mariana_gallery():
     tag menu
     use game_menu(_("Galeria da mariana"), scroll="viewport"):
-        hbox:
+        vbox:
             grid gal_cols gal_rows:
+                xpos 80
                 spacing 35
                 $ i = 0
                 $ next_mariana_page = mariana_page + 1
@@ -48,13 +49,17 @@ screen mariana_gallery():
                         add g_mariana.make_button(gal_item + " butt", gal_item + " butt", im.Scale("gui/gallocked.png", thumbnail_x, thumbnail_y), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=0)
                 for j in range(i, (mariana_page+1)*gal_cells): #we need this to fully fill the grid
                     null
-            frame:
-                xpos -150
-                ypos 555
-                if len(gallery_mariana_items)>gal_cells:
-                    textbutton _("Próximo") action [SetVariable('mariana_page', next_mariana_page), ShowMenu("mariana_gallery")]
-            frame:
-                xpos -750
-                ypos 555
+            null height 50
+            
+            hbox:
+                spacing 200
                 if len(gallery_mariana_items)>gal_cells:
                     textbutton _("Anterior") action [SetVariable('mariana_page', previous_mariana_page), ShowMenu("mariana_gallery")]
+                textbutton _("Voltar") action ShowMenu("cg_gallery")
+                if len(gallery_mariana_items)>gal_cells:
+                    textbutton _("Próxima") action [SetVariable('mariana_page', next_mariana_page), ShowMenu("mariana_gallery")]
+                
+                
+                
+                
+                

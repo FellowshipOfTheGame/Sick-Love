@@ -33,9 +33,10 @@ init +1 python:
 screen sofia_gallery():
     tag menu
     use game_menu(_("Galeria da Sofia"), scroll="viewport"):
-        hbox:
+        vbox:
             grid gal_cols gal_rows:
                 spacing 35
+                xpos 80
                 $ i = 0
                 $ next_sofia_page = sofia_page + 1
                 $ previous_sofia_page = sofia_page - 1
@@ -49,13 +50,14 @@ screen sofia_gallery():
                         add g_sofia.make_button(gal_item + " butt", gal_item + " butt", im.Scale("gui/gallocked.png", thumbnail_x, thumbnail_y), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=0)
                 for j in range(i, (sofia_page+1)*gal_cells): #we need this to fully fill the grid
                     null
-            frame:
-                xpos -150
-                ypos 555
-                if len(gallery_sofia_items)>gal_cells:
-                    textbutton _("Próximo") action [SetVariable('sofia_page', next_sofia_page), ShowMenu("sofia_gallery")]
-            frame:
-                xpos -750
-                ypos 555
+            
+            null height 50
+            
+            hbox:
+                spacing 200
                 if len(gallery_sofia_items)>gal_cells:
                     textbutton _("Anterior") action [SetVariable('sofia_page', previous_sofia_page), ShowMenu("sofia_gallery")]
+                textbutton _("Voltar") action ShowMenu("cg_gallery")
+                if len(gallery_sofia_items)>gal_cells:
+                    textbutton _("Próxima") action [SetVariable('sofia_page', next_sofia_page), ShowMenu("sofia_gallery")]
+            
