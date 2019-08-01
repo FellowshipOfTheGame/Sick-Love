@@ -320,6 +320,9 @@ screen navigation():
         elif not main_menu:
 
             textbutton _("Main Menu") action MainMenu()
+            
+        textbutton _("Gal. Personagens") action ShowMenu("cg_gallery")
+        textbutton _("Gal. Cenários") action ShowMenu("bg_gallery")
 
         textbutton _("Sobre") action ShowMenu("about")
 
