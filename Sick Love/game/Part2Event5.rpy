@@ -6,7 +6,7 @@ scene bg room
 
 "Mas antes disso..."
 
-#mostrar conversa no celular com a garota
+show garota cell at celltransform
 
 p "E aí, tudo certo pra hoje?"
 
@@ -16,7 +16,7 @@ p "Maravilha, acho que na volta podemos passar aqui em casa, quero conversar con
 
 g "Eu ultra apoio, podemos aproveitar pra nos despedir de verdade antes das férias."
 
-#guardar o celular
+hide garota
 
 "Bem agora é esperar, ainda bem que consegui adiar a passagem, aconteceu um imprevisto na minha cidade e meus pais nem estariam em casa pra me buscar de qualquer forma."
 
@@ -32,25 +32,29 @@ g "Eu ultra apoio, podemos aproveitar pra nos despedir de verdade antes das fér
 
 "Bem, melhor eu ir antes que eu me atrase."
 
-#transição para o metro
+scene metro
 
-#if garota == mariana
+show garota happy at arantesnoghost
 
-g "Nossa, que filme, fazia tempo que eu não não me animava tanto com um filme de super-herói, esse foi um dos melhores plot-twists que eu já vi."
+if garota == mariana:
 
-#if garota == rafaela
+    g "Nossa, que filme, fazia tempo que eu não não me animava tanto com um filme de super-herói, esse foi um dos melhores plot-twists que eu já vi."
 
-g "Que jogo! Eu não achava que uma virada dessas era possível, jogaram muito."
+if garota == rafaela:
 
-#if garota == sophia
+    g "Que jogo! Eu não achava que uma virada dessas era possível, jogaram muito."
 
-g "Essa exposição foi muito legal, ainda mais tendo uma sala interativa no fim."
+if garota == sophia:
+
+    g "Essa exposição foi muito legal, ainda mais tendo uma sala interativa no fim."
 
 #end
 
 p "Né? o final foi muito bom mesmo."
 
 p "Que sorte que tivemos tempo pra sair mais uma vez."
+
+show garota standing
 
 g "Sim, mas no fim das contas, o que você queria falar comigo?"
 
@@ -64,13 +68,15 @@ p "Eu gosto muito de você, gosto de sair contigo e falar contigo, mas você tem
 
 p "Ficar se vitimizando, não deixar eu sair com meus amigos, ficar me seguindo escondida, não me deixar estudar o tanto que eu acho necessário, esse tipo de coisa."
 
+show garota evasive at arantesnoghost
+
 g "Calma, não é bem assim, eu só quero passar mais tempo contigo e quero que você passe mais tempo comigo, afinal das contas nós estamos namorando."
 
 g "É assim que se passa uma vida em um relacionamento, tem que se viver a dois."
 
 p "Esse é o problema, nós não temos que viver a dois, somos duas pessoas, estamos juntas por gostarmos uma da outra, mas isso não muda o fato que somos duas pessoas."
 
-p "É claro que vamos passar muito tempo juntos e eu vou mudar meus hábitos pra me adaptar melhor a ti e você também se adapta a mim,"
+p "É claro que vamos passar muito tempo juntos e eu vou mudar meus hábitos pra me adaptar melhor a ti e você também se adapta a mim."
 
 p "Mas eu ainda sou eu, com meus amigos, meus deveres, meus gostos e minha forma de viver."
 
@@ -80,25 +86,29 @@ g "Acho que o problema então é que nós temos que aprender a lidar com a forma
 
 p "Eu tentei, eu realmente tentei, por isso tenho suportado essas coisas que você faz."
 
+show garota sad at arantesnoghost
+
 g "Você tem que entender que eu faço essas coisas porque eu gosto de você."
 
 p "Esse é a questão, eu entendo que você faz isso por gostar de mim e eu não acho certo."
 
-    menu:
+menu:
 
-        "Pedir pra dar um tempo"
+    "Pedir pra dar um tempo":
 
-            jump Part2Event5Passive
+        jump Part2Event5Passive
 
-        "Terminar o namoro"
+    "Terminar o namoro":
 
-            jump Part2Event5Active
+        jump Part2Event5Active
 
-Part2Event5Active:
+label Part2Event5Active:
 
 p "Eu realmente tentei aceitar a forma com que você lida com o relacionamento, tentei pensar que só era uma prova de amor distorcida por uma percepção deturpada."
 
 p "Mas pra mim não dá mais, acho que o melhor seria findar esse relacionamento, eu sinto saudade de quando éramos apenas amigos, as coisas desandaram de uma forma que eu não esperava."
+
+show garota mad at arantesnoghost
 
 g "Pera, oi?!?"
 
@@ -116,13 +126,15 @@ p "A forma como você está lidando com tudo isso eu acho que não é normal, e 
 
 p "Não estou dizendo que não poderemos ser amigos no futuro ou algo do tipo, mas acho que por hora o melhor é nos afastarmos para nos resolvermos com nós mesmos."
 
+show garota sad at arantesnoghost
+
 g "Eu não tô acreditando que isso está acontecendo..."
 
 g "Bem... então vai lá, teu metrô está chegando, acho que vou dar uma volta sozinha então..."
 
 p "Ok, se cuida..."
 
-#fades to Black
+scene black with Fade(0.7,0.2,0.7)
 
 scene bg room
 
@@ -138,7 +150,7 @@ scene bg room
 
 return
 
-Part2Event5Passive:
+label Part2Event5Passive:
 
 p "Acho que podemos usar essas férias pra pensar melhor em como estamos lidando com tudo isso, sabe?"
 
@@ -146,17 +158,21 @@ p "Eu quero continuar com você, mas é evidente que temos problemas."
 
 p "Com esse tempo afastados acho que poderemos perceber o que de melhor vemos um no outro pra voltarmos ainda mais próximos."
 
+show garota evasive at arantesnoghost
+
 g "Tudo bem... Eu também acho que temos algumas coisinhas aqui e ali que podemos melhorar, acho que isso é verdade para os dois lados."
 
 p "Ainda bem que você aceitou sem problemas, achei que você não iria aceitar bem a ideia."
 
 g "Por que eu faria isso? Se isso é algo que te incomoda, é algo que me incomoda, eu me preocupo com você."
 
-p "Bem, obrigado por isso. Acho qu vou seguindo meu caminho então."
+p "Bem, obrigado por isso. Acho que vou seguindo meu caminho então."
 
 g "Espera, nós não vamos pra sua casa?"
 
 p "Bem, imagino que não, né?"
+
+show garota standing at arantesnoghost
 
 g "Por que? Olha, vamos fazer assim, nós começamos esse 'tempo' que vamos dar a partir de amanha, que tal? Vamos aproveitar nosso ultimo dia, querido."
 
@@ -168,15 +184,19 @@ p "Bem..."
 
 g "Vamos logo, o metrô está pra partir."
 
-#fades to black prolongado
+scene black with Fade(0.7,0.2,0.7)
 
 "-{i}Na manhã seguinte{/i}-"
 
 scene bg room
 
+show garota standing at arantesnoghost
+
 p "Bem, tchau tchau, passar bem."
 
 g "Até mais, nos vemos no próximo semestre."
+
+hide garota
 
 "Eu tenho a leve impressão que ela vai tentar falar comigo durante as férias..."
 

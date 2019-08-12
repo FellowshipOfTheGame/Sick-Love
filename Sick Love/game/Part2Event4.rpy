@@ -14,7 +14,7 @@ scene bg room
 
 "Será que são os caras chamando pra estudar juntos esse fim de semana também?"
 
-#mostrar celular conversa com a garota
+show garota cell at celltransform
 
 g "Oi, já decidiu o que faremos esse fim de semana?"
 
@@ -68,17 +68,17 @@ p "Eu não sei se um dia vai ser o suficiente..."
 
 g "Vamos, por favor... Eu queria poder me despedir de você melhor, já que não vamos nos ver direito nessa ultima semana..."
 
-    menu:
-        "Tudo bem, acho que talvez eu consiga revisar toda a materia em um dia"
+menu:
+    "Tudo bem, acho que talvez eu consiga revisar toda a materia em um dia":
 
-            jump Part2Event4Passive
+        jump Part2Event4Passive
 
-        "Eu queria sair, mas tenho que estudar, desculpa"
+    "Eu queria sair, mas tenho que estudar, desculpa":
 
-            jump Part2Event4Active
+        jump Part2Event4Active
 
 
-Part2Event4Active:
+label Part2Event4Active:
 
 p "Desculpa, mas eu realmente preciso estudar, podemos ver se conseguimos sair pra tomar um sorvete antes da viagem ou algo do tipo."
 
@@ -108,7 +108,7 @@ g "Então tá bom. Bons estudos, vou seguir minha vida aqui também."
 
 return
 
-Part2Event4Passive:
+label Part2Event4Passive:
 
 p "Bem, acho que podemos fazer isso funcionar..."
 
@@ -122,7 +122,7 @@ g "Obrigada [povname], te amo."
 
 p "Também te amo S2."
 
-#fade to Black
+scene black with Fade(0.7,0.2,0.7)
 
 "{i}Alguns dias depois{\i}"
 
@@ -132,7 +132,7 @@ scene bg room
 
 #som de notificação do celular
 
-#mostrar grupo com os amigos
+show group cell at celltransform
 
 b "Sairam as notas da prova de segunda."
 

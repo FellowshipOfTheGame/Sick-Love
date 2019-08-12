@@ -2,12 +2,12 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define t = Character("Professor", color = "#751aff", what_color = "#944dff",what_prefix='"', what_suffix='"')
-define s = Character("Sofia", color = "#0083b3", what_color = "#00a8e6",what_prefix='"', what_suffix='"')
-define p = Character("[povname]", color = "#e6e6e6", what_color = "#ffffff", what_prefix='"', what_suffix='"')
-define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"')
-define b = Character("Bruno", color = "#b33232", what_color = "#cd4c4c",what_prefix='"', what_suffix='"')
-define d = Character("Diego", color = "#5c4724", what_color = "#816432",what_prefix='"', what_suffix='"')
+define t = Character("Professor", color = "#751aff", what_color = "#944dff",what_prefix='"', what_suffix='"', who_outlines=[ (1, "#FFFFFF") ], what_outlines=[ (1, "#FFFFFF")])
+define s = Character("Sofia", color = "#0083b3", what_color = "#00a8e6",what_prefix='"', what_suffix='"', who_outlines=[ (1, "#FFFFFF") ], what_outlines=[ (1, "#FFFFFF")])
+define p = Character("[povname]", color = "#e6e6e6", what_color = "#ffffff", what_prefix='"', what_suffix='"', who_outlines=[ (1, "#FFFFFF") ], what_outlines=[ (1, "#FFFFFF")])
+define m = Character("Mariana", color = "#c23ed1", what_color = "#ba38c9",what_prefix='"', what_suffix='"', who_outlines=[ (1, "#FFFFFF") ], what_outlines=[ (1, "#FFFFFF")])
+define b = Character("Bruno", color = "#b33232", what_color = "#cd4c4c",what_prefix='"', what_suffix='"', who_outlines=[ (1, "#FFFFFF") ], what_outlines=[ (1, "#FFFFFF")])
+define d = Character("Diego", color = "#5c4724", what_color = "#816432",what_prefix='"', what_suffix='"', who_outlines=[ (1, "#FFFFFF") ], what_outlines=[ (1, "#FFFFFF")])
 
 
 # Declare all background images here
@@ -18,6 +18,9 @@ image bg classroom = im.Scale("bgclassroom.png", 1366, 768)
 image bg museum = im.Scale("bgmuseum.png", 1366, 768)
 image bg arcade = im.Scale("bgarcade.png", 1366, 768)
 image bg movies = im.Scale("bgmovies.png", 1366, 768)
+image bg metro = im.Scale("bgmetro.png", 1366, 768)
+image bg rave = im.Scale("bgrave.png", 1366, 768)
+image bg campus = im.Scale("bgcampus.png", 1366, 768)
 image black = "#000"
 
 #Declare all sofia images here
@@ -30,6 +33,11 @@ image sofia evasive = im.Scale("sofia_evasiva.png", 1365, 840)
 image sofia upset = im.Scale("sofia_irritada.png", 1365, 840)
 image sofia shy = im.Scale("sofia_envergonhada.png", 1365, 840)
 image sofia cell = im.Scale("sofiacell.png", 390, 670)
+
+#Secondary characters images
+image professor = im.Scale("professor.png", 504, 600)
+image bruno idle = im.Scale("brunoidle.png", 1365, 840)
+image diego idle = im.Scale("diegoidle.png", 1365, 840)
 
 transform noghost:
     xalign 0.5
@@ -53,7 +61,6 @@ image mariana blushed = im.Scale("marianablushed.png", 504, 600)
 image mariana happy = im.Scale("marianahappy.png", 504, 600)
 image mariana cell = im.Scale("marianacell.png", 390, 670)
 
-image professor = im.Scale("professor.png", 504, 600)
 
 
 
@@ -64,7 +71,7 @@ label checkInterlude(date):
     if nDatesSofia == 3 or nDatesMariana == 3 or nDatesRafaela == 3:
         if not ended:
             $ ended = True
-            jump part2
+            jump part2firstevent
         else:
             return
     else:
