@@ -14,7 +14,7 @@ scene bg room
 
 "Será que são os caras chamando pra estudar juntos esse fim de semana também?"
 
-#mostrar celular conversa com a garota
+show garota cell at celltransform
 
 g "Oi, já decidiu o que faremos esse fim de semana?"
 
@@ -122,7 +122,7 @@ g "Obrigada [povname], te amo."
 
 p "Também te amo S2."
 
-#fade to Black
+scene black with Fade(0.7,0.2,0.7)
 
 "{i}Alguns dias depois{\i}"
 
@@ -132,7 +132,7 @@ scene bg room
 
 #som de notificação do celular
 
-#mostrar grupo com os amigos
+show group cell at celltransform
 
 b "Sairam as notas da prova de segunda."
 

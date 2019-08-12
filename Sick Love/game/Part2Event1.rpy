@@ -12,8 +12,7 @@ scene bg room
 
 "Não checo meu celular desde ontem à tarde. Eu realmente precisava me focar... O que será que rolou? Deve ter algumas centenas de mensagens acumuladas."
 
-#pegar celular
-#TODO celular fora do chat(layout basico de uma tela inicial)
+show group cell at celltransform
 
 "Olha aí, dito e feito."
 
@@ -23,8 +22,7 @@ scene bg room
 
 "O que será que ela queria?"
 
-# abrir chat com garota
-#g seria a garota, n sei como definiremos ela futuramente
+show garota cell at celltransform
 
 show girlfriend cell at celltransform
 
@@ -48,13 +46,13 @@ g "Nossa [povname], que merda! Para de me ignorar!"
 
 "Nossa, pior que eu já estou um pouco atrasado, ainda tenho que imprimir o trabalho... Eu lido com isso depois, não estou com cabeça pra isso agora."
 
-#troca de cena para hambiente externo
+scene bg campus
 
 "Finalmente acabaram as aulas, esse dia foi longo, ao menos agora posso voltar pro meu quarto e descansar."
 
 "Pera. Aquela ali não é a [g.name]?"
 
-#mostrar garota
+show garota evasive at arantesnoghost
 
 p "Oi [g.name], tudo bem, eu queria falar contigo."
 
@@ -64,7 +62,7 @@ p "Ok. Pode ser."
 
 scene bg room
 
-#show garota
+show garota evasive at arantesnoghost
 
 show girlfriend angry at girltransform
 
@@ -76,11 +74,15 @@ g "Mas poxa, você não poderia responder? Eu me preocupo contigo, por isso quer
 
 g "Tem vezes que você só some e isso me tira do sério. Sem falar que uma das vezes que isso aconteceu você tinha saído com seus amigos, e eu não sei quem foi com vocês."
 
+show garota mad at arantesnoghost
+
 g "Nós estamos namorando, não quero que você saia andando com outras meninas. Entende o meu lado, eu fico sozinha esperando sua resposta sendo que você poderia estar na farra."
 
 p "Calma, primeiro: eu só fiquei sem te responder porque eu não estava usando o meu celular, eu deixei ele de lado no modo silencioso."
 
 p "Era isso ou eu não conseguiria terminar o trabalho a tempo."
+
+show garota sad at arantesnoghost
 
 g "Mas poxa, o que custa me responder? Você pode silenciar os outros e ver só as minhas mensagens."
 
@@ -101,6 +103,8 @@ label Part2Event1Passive:
 p "Desculpa, não foi isso que eu quis dizer."
 
 p "Eu prometo que vou tentar olhar mais o celular e ser mais atento. Desculpa."
+
+show garota happy at arantesnoghost
 
 g "Tudo bem, obrigado por se importar, eu me preocupo com você."
 
@@ -130,7 +134,7 @@ p "Olha, eu gosto de você. Eu quero que esse relacionamento dê certo, então p
 
 p "Depois nós nos falamos."
 
-#transição pro quarto/pequeno time skip
+scene black with Fade(0.7,0.2,0.7)
 
 "Nossa... Espero que termine tudo bem entre nós dois. Eu ainda gosto dela, mas ela ficando assim em cima de mim não acho que vá dar certo."
 

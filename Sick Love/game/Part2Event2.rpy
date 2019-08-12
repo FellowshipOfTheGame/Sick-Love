@@ -10,9 +10,9 @@ scene bg room
 
 "Opa, o que será que está rolando?"
 
-#mostrar celular
-
 "É o grupo da {i}panelinha{/i}, o que será que aqueles dois estão aprontando? Será que é algum meme?"
+
+show group cell at celltransform
 
 "Ah, é só mensagem do Bruno."
 
@@ -32,7 +32,7 @@ d "{i}Já é{/i}."
 
 b "Até."
 
-#tirar o celular
+hide group
 
 "Nossa, o que será que rolou com o Bruno? Espero que não seja nada muito sério..."
 
@@ -40,7 +40,7 @@ b "Até."
 
 "Sábado eu iria sair com a [g.name], mas acho que esse caso é mais emergencial."
 
-#mostrar celular falando com a garota
+show garota cell at celltransform
 
 p "Oi [g.name], então, apareceu um imprevisto e não vai rolar de sair contigo esse sábado. :/"
 
@@ -66,7 +66,7 @@ g "Mas por que em um pub? Será que na casa de um de vocês não seria melhor?"
 
 p "Bem, posso ver com eles, {i}peraí{/i}."
 
-#trocar para as mensagens do grupo
+show group cell at celltransform
 
 p "Galera, será que não seria melhor fazer isso na casa de alguém?"
 
@@ -76,7 +76,7 @@ b "Né, e eu acho melhor ser no pub pra não acabar virando um rolê muito baixo
 
 p "Ah, se preferem assim, tudo bem."
 
-#trocar para as mensagens da menina
+show group garota at celltransform
 
 p "É, eles não curtiram muito a ideia. Mas não faz mal, vamos só bater papo mesmo."
 
@@ -110,7 +110,7 @@ p "Tudo bem... Vou avisá-los."
 
 g "Obrigada, querido <3."
 
-#trocar para a conversa com a galera
+show group cell at celltransform
 
 p "Galera, não vou poder ir sábado."
 
@@ -124,7 +124,10 @@ p "Ah, mano, é o jeito dela. Mas nós vamos nos ajeitando."
 
 "Preciso Mandar mensagem no privado para o Diego."
 
-#trasação e mostrar o celular novamente
+scene bg room
+with Fade(0.7,0.2,0.7)
+
+show group cell at celltransform
 
 p "E aí cara, tudo bem?"
 

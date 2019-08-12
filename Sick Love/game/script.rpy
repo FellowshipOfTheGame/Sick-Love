@@ -79,8 +79,6 @@ init -1:
     image mariana blushed3 = im.Scale("marianablushed3.png", 504, 600)
     image mariana happy3 = im.Scale("marianahappy3.png", 504, 600)
 
-    image professor = im.Scale("professor.png", 504, 600)
-
     #Declare all rafaela images here
     image rafaela standing = im.Scale("Rafaela.png", 1365, 840)
     image rafaela happy = im.Scale("Rafaela_sorrindo.png", 1365, 840)
@@ -101,6 +99,11 @@ init -1:
     image rafaela upset3 = im.Scale("Rafaela_irritada3.png", 1365, 840)
     image rafaela evasive3 = im.Scale("Rafaela_evasiva3.png", 1365, 840)
     image rafaela shy3 = im.Scale("Rafaela_envergonhada3.png", 1365, 840)
+
+    #Secondary characters images
+    image professor = im.Scale("professor.png", 504, 600)
+    image bruno idle = im.Scale("brunoidle.png", 1365, 840)
+    image diego idle = im.Scale("diegoidle.png", 1365, 840)
 
 transform noghost:
     xalign 0.5
@@ -124,7 +127,7 @@ label checkInterlude(date):
     if nDatesSofia == 3 or nDatesMariana == 3 or nDatesRafaela == 3:
         if not ended:
             $ ended = True
-            jump part2
+            jump part2firstevent
         else:
             return
     else:

@@ -167,5 +167,7 @@ with Fade(0.7,0.2,0.7)
 
 "Acho que as coisas finalmente estão começando a dar certo pra mim."
 
+scene black with Fade(0.7,1,1)
+
 #Finish
 return

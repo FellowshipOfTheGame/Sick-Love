@@ -14,7 +14,7 @@ scene bg room
 
 "Será que a galera já está preparada pra amanhã?"
 
-#mostrar celular
+show group cell at celltransform
 
 p "E ai galerinha, prontos pra festa?"
 
@@ -56,15 +56,19 @@ d "Por mim beleza. Já tá tudo pronto aqui tmb."
 
 p "Então fechou. Nos vemos lá."
 
-#Tirar o celular
+hide group
 
 "Esses caras são muito... Diferenciados. Acho que consegui fazer boas amizades no fim das contas."
 
-#transição pra universidade área externa
+scene bg campus
 
 "Acabei me atrasando um pouco. Espero que eles não tenham ido sem mim..."
 
 "Achei! Eles estão logo ali."
+
+show diego standing at left
+
+show bruno standing at right
 
 d "[povname], finalmente. O que rolou?"
 
@@ -94,11 +98,15 @@ p "{i}Bora{/i}."
 
 d "Sigam-me os bons!"
 
-#transição para a festa
+scene bg rave
 
 "Nossa. O ingresso foi caro, mas tem se pagado. A bebida não está ruim e a música até que está bem legal."
 
 "Acho que talvez o Diego tenha passado um pouco da conta. Mas tirando isso está tudo certo."
+
+show diego standing at left
+
+show bruno standing at right
 
 d "Eu tô falando cara: desde a primeira vez que suas mãos se encostaram você está aplaudindo sem parar. A única coisa que muda é o tempo entre as palmas."
 
@@ -119,6 +127,8 @@ b "{i}Pera{/i}, acho que ele {i}tá{/i} certo."
 "Quando eu virei não tinha ninguém olhando pra cá... Mas aquela pessoa de costas parece mesmo a ..."
 
 p "[g.name]?!?"
+
+show garota evasive at arantesnoghost
 
 g "Ah, oi! Finalmente te achei, passei a festa inteira te procurando!"
 
@@ -142,6 +152,8 @@ p "Não é que eu não esteja, é só que esta história está muito mal contada
 
 p "Fala a verdade pra mim: o que aconteceu?"
 
+show garota sad at arantesnoghost
+
 g "Bem... é que seus amigos sempre querem sair pra pegação e bebedeira e eu nunca sei se quando você sai com eles se você também não fica com outras..."
 
 g "Então eu queria saber como você se comportava quando não estava comigo..."
@@ -157,11 +169,13 @@ label Part2Event3Passive:
 
 p "Não sei de onde você tira esse seu ciúme, mas acho que esse é o seu jeito mesmo, ao menos você está aqui agora."
 
+show garota happy at arantesnoghost
+
 g "Você também se comportou {i}direitinho{/i}, está de parabéns."
 
 p "Eu disse que poderia confiar em mim."
 
-#fades to black
+scene black with Fade(0.7,0.2,0.7)
 
 "Continuamos na festa e Diego voltou a beber e tivemos que levá-lo no ambulatório."
 
@@ -173,7 +187,7 @@ scene bg room
 
 "Como será que os outros dois estão? Será que o Diego já acordou?"
 
-#pega celular
+show group cell at celltransform
 
 p "E aí, galera, como estamos? Sobreviveram?"
 
@@ -197,7 +211,7 @@ b "Esse é o problema. Acho que isso não vai fazer bem pra ti."
 
 b "Assim, ainda é o teu relacionamento. Mas como amigo, gostaria de te deixar avisado."
 
-#esconde celular
+hide group
 
 "Eu sei que ela é ciumenta, mas será que o Bruno não está fazendo tempestade em copo d'água?"
 
@@ -220,6 +234,8 @@ p "Eu também gosto muito de você. É por isso que eu namoro contigo. Se fosse 
 p "Sério, tudo poderia ter sido bem diferente. Nós poderiamos ter vindo todos juntos e não ter que viver toda essa cena agora."
 
 p "Por que você faz isso?"
+
+show garota evasive at arantesnoghost
 
 g "Eu faço isso porque eu te amo!"
 
